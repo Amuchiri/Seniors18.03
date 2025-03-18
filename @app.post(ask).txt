@@ -1,0 +1,131 @@
+@app.post("/ask/")
+async def ask_question(
+    request: Request,
+    user_query: str = Form(...),
+    literacy_level: str = Form(...),
+    language: str = Form(...),
+    db: Session = Depends(get_db)
+):
+    """ Get AI response in English (but do NOT store it in the database) """
+
+
+# ✅ Function to generate AI response
+    def generate_learning_content(user_query, literacy_level):
+        """ Generate AI response based on user query and literacy level """
+        prompt = (
+            f"The user has a digital literacy level of {literacy_level}. "
+            f"Provide a structured response with headings, bullet points, and clear steps. "
+            f"Answer the following question: {user_query}"
+        )
+
+        headers = {
+            "Authorization": "Bearer " + MISTRAL_KEY,
+            "Content-Type": "application/json"
+        }
+        data = {
+            "model": "mistral-small",  # ✅ FIX: Changed model name
+            "messages": [{"role": "user", "content": prompt}]
+        }
+
+        try:
+            response = requests.post(MISTRAL_URL, json=data, headers=headers)
+            response.raise_for_status()  # Raise error for bad response
+
+            ai_content = response.json()["choices"][0]["message"]["content"]
+
+            # ✅ FIX: Using `.format()` instead of f-string
+            formatted_response = """
+            <h3>🔹 AI Digital Literacy Guide</h3>
+            <p><strong>Here’s your AI-generated response:</strong></p>
+            <div style='background:#f8f9fa;padding:10px;border-radius:5px;border-left:4px solid #007bff;'>
+            {}</div>
+            """.format(ai_content.replace("\n", "<br>"))  # ✅ Now correctly handles new lines
+
+            return formatted_response
+
+        except requests.exceptions.RequestException as e:
+            print(f"Error with Mistral API: {e}")
+            return "<p style='color:red;'>⚠️ API Error: Unable to fetch a response at this time.</p>"
+
+    # Call Mistral AI
+    ai_response = generate_learning_content(user_query, literacy_level)
+
+    return templates.TemplateResponse("index.html", {
+        "request": request,
+        "predicted_level": literacy_level,
+        "ai_response": ai_response
+    })
+
+
+# Run FastAPI Server
+if __name__ == "__main__":
+    uvicorn.run(app, host="0.0.0.0", port=8000, reload=True)
+
+
+@app.post("/ask/")
+async def ask_question(
+    request: Request,
+    user_query: str = Form(...),
+    literacy_level: str = Form(...),
+    user_id: int = Form(...),  # ✅ Ensure user_id is passed from frontend
+    db: Session = Depends(get_db)
+):
+    """ Save user question and generate AI response """
+
+    # ✅ Debugging: Print values to check if `user_id` is received
+    print(f"📌 Received User ID: {user_id}, Question: {user_query}")
+
+    # ✅ Check if user exists
+    user = db.query(UserData).filter(UserData.id == user_id).first()
+    if not user:
+        print("❌ Error: User not found in database.")
+        return JSONResponse(content={"error": "User not found!"})
+
+	# ✅ Store the question in the database
+    new_query = UserQuery(user_id=user.id, user_query=user_query, language=language)
+    db.add(new_query)
+    db.commit()
+    db.refresh(new_query)
+
+    # ✅ Generate AI Response
+    ai_response = generate_learning_content(user_query, literacy_level,language)
+
+    return templates.TemplateResponse("index.html", {
+        "request": request,
+        "predicted_level": literacy_level,
+        "ai_response": ai_response
+    })
+
+    def generate_learning_content(user_query, literacy_level):
+        """ Generate AI response in English """
+        prompt = f"""
+        User Literacy Level: {literacy_level}
+        Language: English
+        User Question: {user_query}
+        Provide a well-structured response with headings, bullet points, and clear steps.
+        """
+
+        headers = {
+            "Authorization": f"Bearer {MISTRAL_KEY}",
+            "Content-Type": "application/json"
+        }
+        data = {
+            "model": "mistral-small",
+            "messages": [{"role": "user", "content": prompt}]
+        }
+
+        try:
+            response = requests.post(MISTRAL_URL, json=data, headers=headers)
+            response.raise_for_status()
+            ai_content = response.json()["choices"][0]["message"]["content"]
+
+            print(f"🔹 AI Response (English): {ai_content}")  # ✅ Debugging
+
+            return ai_content  # ✅ Return English response
+
+        except requests.exceptions.RequestException as e:
+            print(f"❌ Mistral API Error: {e}")
+            return "⚠️ AI Error: Unable to fetch a response."
+
+    # ✅ Get AI Response in English
+    ai_response = generate_learning_content(user_query, literacy_level)

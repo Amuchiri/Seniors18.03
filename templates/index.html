@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Literacy Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='style.css') }}">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 20px;
+            padding: 20px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #007bff;
+        }
+
+        .tab-buttons {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .tab-buttons button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 15px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .tab-buttons button:hover {
+            background-color: #0056b3;
+        }
+
+        .tab-content {
+            display: none;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        form {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        label {
+            font-weight: bold;
+            width: 180px;
+            display: inline-block;
+        }
+
+        input, select {
+            flex-grow: 1;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        button {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background-color: #218838;
+        }
+    </style>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            let savedTab = localStorage.getItem("activeTab");
+            if (savedTab) openTab(savedTab);
+            else openTab('userInfo');
+
+            let savedUserId = localStorage.getItem("userId");
+            if (savedUserId) {
+                document.querySelectorAll(".user-id-field").forEach(field => {
+                    field.value = savedUserId;
+                });
+            }
+        });
+
+        function openTab(tabId) {
+            document.querySelectorAll('.tab-content').forEach(tab => tab.classList.remove('active'));
+            document.getElementById(tabId).classList.add('active');
+            localStorage.setItem("activeTab", tabId);
+        }
+
+function saveUserID() {
+    let userId = document.getElementById("User_ID").value;
+    if (!userId.trim()) {
+        alert("⚠️ Please enter a User ID before proceeding.");
+        return;
+    }
+
+    // ✅ Save User ID in Local Storage (No Server Request Needed)
+    localStorage.setItem("userId", userId);
+    document.querySelectorAll(".user-id-field").forEach(field => {
+        field.value = userId;
+    });
+
+    alert("✅ User ID saved successfully!");
+}
+
+function getPrediction() {
+    let userId = localStorage.getItem("userId");
+    if (!userId) {
+        alert("⚠️ User ID is missing. Please enter it first.");
+        return;
+    }
+
+
+    let formData = new URLSearchParams(); // ✅ Correct format
+    formData.append("user_id", userId);
+    formData.append("age_group", document.getElementById("Age_Group").value);
+    formData.append("education_level", document.getElementById("Education_Level").value);
+    formData.append("income_level", document.getElementById("Income_Level").value);
+    formData.append("internet_access", document.getElementById("Internet_Access").value);
+    formData.append("device_usage", document.getElementById("Device_Usage").value);
+    formData.append("support_required", document.getElementById("Support_Required").value);
+    formData.append("egov_service_usage", document.getElementById("eGov_Usage").value);
+    formData.append("prior_digital_training", document.getElementById("Prior_Training").value);
+    formData.append("household_tech_access", document.getElementById("Household_Tech_Access").value);
+
+    console.log("📢 Sending Form Data:", formData.toString()); // ✅ Debugging
+
+    fetch("/predict/", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/x-www-form-urlencoded" // ✅ Required for FastAPI
+        },
+        body: formData
+    })
+    .then(response => response.json())
+    .then(data => {
+        console.log("✅ Prediction Response:", data);
+        alert("✅ User data saved successfully!\nPredicted Literacy Level: " + data.predicted_digital_literacy);
+    })
+    .catch(error => {
+        console.error("⚠️ Failed to save user data:", error);
+        alert("⚠️ Failed to save user data.");
+    });
+}
+
+
+function askQuestion() {
+    let userQuery = document.getElementById("userQuery").value;
+    let userId = localStorage.getItem("userId");
+
+    if (!userQuery.trim()) {
+        alert("⚠️ Please enter a question.");
+        return;
+    }
+    if (!userId) {
+        alert("⚠️ User ID is missing. Please enter it first.");
+        return;
+    }
+
+    let formData = new FormData();
+    formData.append("user_query", userQuery);
+    formData.append("user_id", userId);
+
+    console.log("📢 Sending Data to /ask/:", Object.fromEntries(formData.entries())); // ✅ Debugging
+
+    fetch("/ask/", {
+        method: "POST",
+        body: formData
+    })
+    .then(response => response.json())
+    .then(data => {
+        console.log("✅ AI Response:", data);
+        document.getElementById("aiResponse").innerHTML = `
+            <h3>📝 Your Question:</h3>
+            <p>${data.user_query}</p>
+            <h3>🤖 AI Response:</h3>
+            <p>${data.ai_response.replace(/\n/g, "<br>")}</p>
+        `;
+    })
+    .catch(error => {
+        console.error("⚠️ AI response failed:", error);
+        alert("⚠️ AI response failed.");
+    });
+}
+
+
+        function submitFeedback() {
+            let userId = localStorage.getItem("userId");
+            let feedback = document.getElementById("userFeedback").value;
+
+            if (!feedback.trim()) {
+                alert("⚠️ Please enter feedback.");
+                return;
+            }
+
+            let formData = new FormData();
+            formData.append("user_id", userId);
+            formData.append("feedback_text", feedback);
+
+            fetch("/save_feedback/", { method: "POST", body: formData })
+                .then(response => response.json())
+                .then(() => {
+                    alert("✅ Feedback submitted successfully!");
+                })
+                .catch(() => {
+                    alert("⚠️ Failed to submit feedback.");
+                });
+        }
+
+// Speech Recognition for voice input (requires browser support)
+        function startSpeechRecognition() {
+            let recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
+            recognition.lang = 'en-US';
+            recognition.start();
+            recognition.onresult = (event) => {
+                let speechText = event.results[0][0].transcript;
+                document.getElementById("userQuery").value = speechText;
+            };
+        }
+let speechSynthesisInstance = null; // Store the speech instance
+let isSpeechPlaying = false; // Track speech state
+
+function playPauseAIResponse() {
+    if (!speechSynthesisInstance || isSpeechPlaying === false) {
+        // Start reading aloud
+        let responseText = document.getElementById("aiResponse").innerText;
+        speechSynthesisInstance = new SpeechSynthesisUtterance(responseText);
+        speechSynthesisInstance.lang = 'en-US';
+        speechSynthesisInstance.rate = 1;
+
+        speechSynthesisInstance.onend = function () {
+            document.getElementById("playPauseBtn").innerText = "🔊 Play AI Response";
+            isSpeechPlaying = false;
+        };
+
+        window.speechSynthesis.speak(speechSynthesisInstance);
+        document.getElementById("playPauseBtn").innerText = "⏸ Pause AI Response";
+        isSpeechPlaying = true;
+
+    } else if (window.speechSynthesis.speaking) {
+        // If speech is playing, pause it
+        window.speechSynthesis.pause();
+        document.getElementById("playPauseBtn").innerText = "▶️ Resume AI Response";
+        isSpeechPlaying = false;
+
+    } else {
+        // If speech is paused, resume it
+        window.speechSynthesis.resume();
+        document.getElementById("playPauseBtn").innerText = "⏸ Pause AI Response";
+        isSpeechPlaying = true;
+    }
+}
+
+// Ensure speech stops when a new request is made
+function stopSpeech() {
+    if (window.speechSynthesis.speaking) {
+        window.speechSynthesis.cancel();
+        isSpeechPlaying = false;
+        document.getElementById("playPauseBtn").innerText = "🔊 Play AI Response";
+    }
+}
+
+
+        // Placeholder functions for translation features
+let originalAiResponse = ""; // ✅ Store the original English response
+
+function translateToSwahili() {
+    let aiResponseElement = document.getElementById("aiResponse");
+    let aiResponse = aiResponseElement.innerText.trim();
+
+    if (!aiResponse) {
+        alert("❌ No AI response available to translate.");
+        return;
+    }
+
+    originalAiResponse = aiResponse; // ✅ Store the original response before translating
+
+    let formData = new FormData();
+    formData.append("ai_response", aiResponse);
+
+    fetch("/translate/", {
+        method: "POST",
+        body: formData
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.translated_response) {
+            aiResponseElement.innerHTML = `
+                <h3>🌍 Swahili Translation:</h3>
+                <p>${data.translated_response}</p>
+            `;
+            document.getElementById("englishBtn").style.display = "block";
+            document.getElementById("translateBtn").style.display = "none";
+        } else {
+            alert("❌ Translation failed.");
+        }
+    })
+    .catch(error => {
+        console.error("❌ Translation Error:", error);
+        alert("❌ Error translating.");
+    });
+}
+
+// ✅ Fix: Show English Response
+function showEnglishResponse() {
+    if (!originalAiResponse) {
+        alert("❌ No original English response found.");
+        return;
+    }
+    
+    document.getElementById("aiResponse").innerHTML = `
+        <h3>🤖 AI Response (English):</h3>
+        <p>${originalAiResponse}</p>
+    `;
+    document.getElementById("translateBtn").style.display = "block";
+    document.getElementById("englishBtn").style.display = "none";
+}
+
+
+        function showEnglishResponse() {
+            alert("Showing English response.");
+        }
+        // Functions to adjust preferences (if needed)
+        function savePreference(fontSize, highContrast) {
+            let userId = document.getElementById("userIdField").value;
+            if (!userId || userId == "0") {
+                console.error("❌ Cannot save preferences: User ID is missing.");
+                return;
+            }
+            fetch("/save-preference/", {
+                method: "POST",
+                headers: { "Content-Type": "application/x-www-form-urlencoded" },
+                body: new URLSearchParams({
+                    user_id: userId,
+                    font_size: fontSize,
+                    high_contrast: highContrast
+                })
+            }).then(response => response.json())
+            .then(data => console.log("✅ Preferences saved:", data))
+            .catch(error => console.error("❌ Error saving preferences:", error));
+        }
+        function setFontSize(size) {
+            document.body.classList.remove("large-font");
+            if (size === "large") {
+                document.body.classList.add("large-font");
+            }
+            savePreference(size, document.body.classList.contains("high-contrast"));
+        }
+        function toggleContrast() {
+            document.body.classList.toggle("high-contrast");
+            savePreference(document.body.classList.contains("large-font") ? "large" : "default",
+                document.body.classList.contains("high-contrast"));
+        }
+
+
+      // Reset forms and AI response display
+        function resetForm() {
+            document.getElementById("userForm").reset();
+            document.getElementById("askForm").reset();
+            document.getElementById("aiResponse").innerHTML = "<p>🔹 Ask a question to receive AI-generated guidance.</p>";
+            document.getElementById("audioResponse").src = "";
+        }
+    </script>
+</head>
+
+<body>
+    <h2>📚 Digital Literacy Chatbot</h2>
+
+    <!-- Tab Navigation -->
+    <div class="tab-buttons">
+        <button onclick="openTab('userInfo')">👤 User Information</button>
+        <button onclick="openTab('chatbot')">💬 Chatbot</button>
+        <button onclick="openTab('services')">🔧 Services & Feedback</button>
+    </div>
+
+ <!-- User Information Tab -->
+<div id="userInfo" class="tab-content active">
+<div class="form-container">
+    <h3>User Information</h3>
+    <form id="userForm">
+        <div class="form-group">
+            <label for="User_ID">User ID:</label>
+            <input type="text" id="User_ID" required>
+        </div>
+
+        <div class="form-group">
+            <label for="Age_Group">Age Group:</label>
+            <select id="Age_Group">
+                <option value="60-64">60-64</option>
+                <option value="65-74">65-74</option>
+                <option value="75-84">75-84</option>
+                <option value="85+">85+</option>
+            </select>
+
+            <label for="Education_Level">Education Level:</label>
+            <select id="Education_Level">
+                <option value="No Formal Education">No Formal Education</option>
+                <option value="Primary">Primary</option>
+                <option value="Secondary">Secondary</option>
+                <option value="Tertiary">Tertiary</option>
+            </select>
+
+            <label for="Income_Level">Income Level:</label>
+            <select id="Income_Level">
+                <option value="Low">Low</option>
+                <option value="Middle">Middle</option>
+                <option value="High">High</option>
+            </select>
+        </div>
+    </form>
+</div>
+
+<!-- Digital Access & Device Usage Form -->
+<div class="form-container">
+    <h3>Digital Access & Device Usage</h3>
+    <form id="deviceUsageForm">
+        <div class="form-group">
+            <label for="Internet_Access">Internet Access:</label>
+            <select id="Internet_Access">
+                <option value="No Access">No Access</option>
+                <option value="Limited Access">Limited Access</option>
+                <option value="Reliable Access">Reliable Access</option>
+            </select>
+
+            <label for="Device_Usage">Device Usage:</label>
+            <select id="Device_Usage">
+                <option value="Never">Never</option>
+                <option value="Occasionally">Occasionally</option>
+                <option value="Frequently">Frequently</option>
+            </select>
+
+            <label for="Household_Tech_Access">Household Tech Access:</label>
+            <select id="Household_Tech_Access">
+                <option value="None">None</option>
+                <option value="Basic (Feature Phone)">Basic (Feature Phone)</option>
+                <option value="Smartphone">Smartphone</option>
+                <option value="Computer or Tablet">Computer or Tablet</option>
+            </select>
+        </div>
+    </form>
+</div>
+
+<!-- Digital Literacy & Support Needs Form -->
+<div class="form-container">
+    <h3>Digital Literacy & Support Needs</h3>
+    <form id="supportNeedsForm">
+        <div class="form-group">
+            <label for="Prior_Training">Prior Digital Training:</label>
+            <select id="Prior_Training">
+                <option value="None">None</option>
+                <option value="Basic">Basic</option>
+                <option value="Intermediate">Intermediate</option>
+                <option value="Advanced">Advanced</option>
+            </select>
+
+            <label for="Support_Required">Support Required:</label>
+            <select id="Support_Required">
+                <option value="None">None</option>
+		<option value="Moderate">Moderate</option>
+                <option value="Minimal">Minimal</option>
+                <option value="High">High</option>
+            </select>
+        </div>
+    </form>
+</div>
+
+<!-- e-Government Service Engagement Form -->
+<div class="form-container">
+    <h3>e-Government Service Engagement</h3>
+    <form id="eGovForm">
+        <div class="form-group">
+            <label for="eGov_Usage">eGov Service Usage:</label>
+            <select id="eGov_Usage">
+                <option value="Never">Never</option>
+                <option value="Occasionally">Occasionally</option>
+                <option value="Frequently">Frequently</option>
+            </select>
+            <!-- Get Prediction Button -->
+<button type="button" class="btn btn-success" onclick="getPrediction()">Get Prediction</button>
+
+<!-- Save User ID Button -->
+<button type="button" class="btn btn-primary" onclick="saveUserID()">Save User</button>
+  <button type="button" onclick="resetForm()">🔄 Reset</button>
+
+        </div>
+    </form>
+</div>
+
+</div>
+
+    <!-- Chatbot Tab -->
+    <div id="chatbot" class="tab-content">
+        <h3>Ask a Digital Literacy Question</h3>
+        <form id="chatbotForm">
+            <div class="form-group">
+                <label for="Chat_User_ID">User ID:</label>
+                <input type="text" id="Chat_User_ID" class="user-id-field" readonly>
+            </div>
+           <div class="form-group">
+                <label>Most Used Digital Tool/Service:</label> <input 	type="text" id="Most_Used_Digital_Tool">
+            </div> 
+            <div class="form-group">
+                <label for="userQuery">Type your question:</label>
+                <input type="text" id="userQuery" placeholder="e.g., How do I use online banking?" required>
+                <button type="button" onclick="askQuestion()">Ask</button>
+ 		 <button onclick="startSpeechRecognition()">🎙️ Speak</button>
+            </div>
+
+            <div id="aiResponse">
+                <p>🔹 Ask a question to receive AI-generated guidance.</p>
+            </div>
+  <button type="submit">Ask in English</button>
+                <button type="button" onclick="startSpeechRecognition()">🎙️ Speak</button>
+                <p id="transcript">Your speech will appear here...</p>
+                <button type="button" id="translateBtn" onclick="translateToSwahili()">🌍 Translate</button>
+                <button type="button" id="englishBtn" onclick="showEnglishResponse()" style="display: none;">Show English</button>
+  <button type="button" onclick="resetForm()">🔄 Reset</button>
+    
+    </div>
+        </form>
+    </div>
+
+    <!-- Services & Feedback Tab -->
+    <div id="services" class="tab-content">
+        <h3>Digital Services Interaction & Feedback</h3>
+        <form id="servicesForm">
+            <div class="form-group">
+                <label for="Service_User_ID">User ID:</label>
+                <input type="text" id="Service_User_ID" class="user-id-field" readonly>
+            </div>
+<h4>Available Services</h4>
+        <ul>
+
+    <li><a href="https://www.ecitizen.go.ke/" target="_blank">E-Government Portal</a></li>
+    <li><a href="https://onlinebanking.co-opbank.co.ke/" target="_blank">Online Banking</a></li>
+    <li><a href="https://sha.go.ke/" target="_blank">Health Services</a></li>
+    <li><a href="https://www.socialprotection.go.ke/" target="_blank">Social Security</a></li>
+
+        </ul>
+
+            <div class="feedback-section">
+                <h4>Feedback</h4>
+                <textarea id="userFeedback" rows="4" placeholder="Share your experience..."></textarea>
+                <button type="button" onclick="submitFeedback()">Submit Feedback</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+

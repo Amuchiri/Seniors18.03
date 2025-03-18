@@ -1,0 +1,1001 @@
+Age_Group,Education_Level,Income_Level,Internet_Access,Device_Usage,Support_Required,eGov_Service_Usage,Prior_Digital_Training,Household_Tech_Access,Digital_Skills_Level
+65-74,Secondary,Middle,Reliable access,Rarely,None,Rarely,Intermediate,Basic (Feature Phone),Advanced
+65-74,Tertiary,High,No access,Frequently,High,Never,Advanced,Smartphone,Advanced
+75-84,Tertiary,High,Limited access,Rarely,None,Never,None,Basic (Feature Phone),Advanced
+75-84,Secondary,Middle,Reliable access,Never,Moderate,Rarely,Intermediate,Laptop/Desktop,Advanced
+65-74,Tertiary,Middle,No access,Rarely,High,Frequently,Intermediate,Smartphone,Advanced
+65-74,Secondary,Middle,No access,Frequently,Moderate,Rarely,None,None,None
+65-74,Tertiary,Low,Limited access,Occasionally,Moderate,Rarely,None,Laptop/Desktop,Advanced
+75-84,Secondary,Low,Limited access,Occasionally,Moderate,Never,Intermediate,None,Advanced
+85+,Secondary,Middle,Reliable access,Occasionally,Minimal,Frequently,Intermediate,None,Intermediate
+65-74,No formal education,High,Limited access,Rarely,Moderate,Rarely,None,Basic (Feature Phone),None
+65-74,Tertiary,Low,Limited access,Occasionally,Minimal,Never,Advanced,None,Advanced
+65-74,Secondary,Low,Limited access,Occasionally,Moderate,Rarely,Advanced,Basic (Feature Phone),Advanced
+75-84,Secondary,Middle,Limited access,Never,High,Never,None,Smartphone,None
+85+,Secondary,Middle,No access,Occasionally,None,Occasionally,Basic,None,Intermediate
+65-74,Secondary,Low,Limited access,Never,Moderate,Never,None,None,None
+85+,Primary,High,Limited access,Rarely,High,Occasionally,None,Smartphone,Basic
+65-74,Secondary,Middle,Limited access,Rarely,High,Rarely,Intermediate,Basic (Feature Phone),Advanced
+65-74,Primary,Middle,Limited access,Rarely,Moderate,Never,Basic,None,None
+75-84,Primary,Low,Reliable access,Occasionally,Moderate,Frequently,None,Basic (Feature Phone),None
+65-74,Secondary,Low,Limited access,Rarely,None,Rarely,Basic,Basic (Feature Phone),Basic
+85+,Primary,High,No access,Rarely,Minimal,Occasionally,Basic,None,Basic
+65-74,Primary,Middle,Limited access,Rarely,High,Rarely,None,Smartphone,None
+85+,Secondary,High,No access,Never,Moderate,Never,None,None,None
+75-84,Primary,Middle,Limited access,Never,Minimal,Rarely,None,Laptop/Desktop,None
+75-84,Primary,Low,Limited access,Frequently,Moderate,Never,Basic,None,Intermediate
+65-74,Secondary,Low,No access,Never,Minimal,Rarely,None,Smartphone,Basic
+75-84,Tertiary,High,Reliable access,Frequently,None,Never,Basic,Smartphone,Intermediate
+75-84,Secondary,Low,No access,Occasionally,Minimal,Never,None,None,None
+65-74,No formal education,Middle,No access,Rarely,None,Occasionally,None,Laptop/Desktop,None
+65-74,No formal education,High,Limited access,Occasionally,Moderate,Occasionally,Basic,None,Basic
+75-84,Tertiary,Middle,Limited access,Occasionally,Moderate,Rarely,None,Basic (Feature Phone),Advanced
+65-74,Secondary,Low,Reliable access,Never,High,Never,None,None,Basic
+75-84,Tertiary,Middle,No access,Frequently,Moderate,Never,None,None,Advanced
+65-74,Secondary,High,Limited access,Rarely,Minimal,Rarely,Advanced,Smartphone,Intermediate
+85+,Secondary,High,Limited access,Occasionally,Minimal,Never,None,None,None
+75-84,Primary,Low,Limited access,Rarely,None,Occasionally,None,None,Basic
+75-84,Secondary,Middle,Reliable access,Never,Minimal,Never,Intermediate,Basic (Feature Phone),Advanced
+65-74,Tertiary,Low,No access,Rarely,Moderate,Occasionally,None,Smartphone,Intermediate
+75-84,Primary,Middle,Limited access,Rarely,Moderate,Frequently,Basic,None,None
+65-74,Secondary,Low,No access,Never,High,Never,Basic,Smartphone,None
+65-74,Secondary,Low,Limited access,Never,Moderate,Never,None,Smartphone,None
+75-84,Secondary,High,No access,Rarely,None,Rarely,Intermediate,Laptop/Desktop,Advanced
+65-74,Secondary,Low,No access,Rarely,High,Never,Basic,Basic (Feature Phone),None
+85+,Secondary,Low,Limited access,Rarely,Minimal,Rarely,None,Basic (Feature Phone),Basic
+65-74,Primary,Low,No access,Frequently,Minimal,Rarely,Basic,Smartphone,Basic
+75-84,Secondary,Middle,Limited access,Frequently,Minimal,Rarely,None,Smartphone,None
+75-84,Primary,Low,No access,Occasionally,Moderate,Never,Intermediate,Smartphone,Intermediate
+65-74,Secondary,Middle,Limited access,Never,Minimal,Never,None,None,Basic
+75-84,Secondary,Low,Reliable access,Frequently,None,Never,Intermediate,Laptop/Desktop,Advanced
+65-74,Tertiary,Middle,Reliable access,Never,High,Never,None,Laptop/Desktop,Advanced
+65-74,Secondary,Middle,Reliable access,Rarely,Minimal,Rarely,Intermediate,None,Intermediate
+65-74,Secondary,High,Limited access,Never,Minimal,Rarely,None,Laptop/Desktop,None
+75-84,Tertiary,Middle,No access,Occasionally,Minimal,Occasionally,None,None,Intermediate
+75-84,Primary,Middle,No access,Frequently,High,Rarely,Basic,None,Intermediate
+65-74,Secondary,Middle,Limited access,Rarely,Minimal,Rarely,None,Basic (Feature Phone),None
+85+,Primary,Middle,Reliable access,Occasionally,Minimal,Occasionally,Intermediate,Laptop/Desktop,Advanced
+75-84,Secondary,Low,Limited access,Rarely,None,Never,None,Basic (Feature Phone),Basic
+65-74,Tertiary,Middle,Limited access,Occasionally,None,Never,Basic,None,Intermediate
+65-74,Secondary,Middle,Limited access,Frequently,Minimal,Never,Intermediate,Basic (Feature Phone),Intermediate
+65-74,Secondary,Low,No access,Occasionally,Minimal,Never,Basic,Basic (Feature Phone),Intermediate
+85+,Secondary,Low,Limited access,Rarely,Moderate,Never,Advanced,Basic (Feature Phone),Advanced
+85+,Tertiary,Low,Limited access,Rarely,High,Never,None,Basic (Feature Phone),Advanced
+65-74,Primary,High,Reliable access,Rarely,High,Never,Intermediate,None,Advanced
+75-84,Secondary,Low,Limited access,Rarely,High,Rarely,None,Laptop/Desktop,None
+65-74,Tertiary,High,Limited access,Never,High,Occasionally,Basic,Basic (Feature Phone),Advanced
+65-74,Primary,Middle,No access,Rarely,Minimal,Rarely,None,None,Basic
+85+,Primary,Low,Limited access,Rarely,Minimal,Never,None,Smartphone,Basic
+65-74,Primary,Low,Reliable access,Rarely,None,Occasionally,None,Basic (Feature Phone),None
+65-74,Primary,Low,Reliable access,Occasionally,High,Rarely,Basic,None,Basic
+65-74,Primary,Low,No access,Occasionally,Minimal,Never,Intermediate,Basic (Feature Phone),Advanced
+75-84,Primary,High,Limited access,Frequently,High,Rarely,Basic,Smartphone,Basic
+65-74,Secondary,Low,No access,Occasionally,None,Occasionally,None,Smartphone,None
+65-74,Secondary,Low,Limited access,Frequently,None,Never,Basic,Basic (Feature Phone),Basic
+65-74,Primary,Middle,No access,Never,Minimal,Rarely,None,Basic (Feature Phone),Basic
+75-84,Secondary,Middle,Limited access,Never,Moderate,Never,None,Basic (Feature Phone),Basic
+85+,Primary,High,Limited access,Occasionally,None,Frequently,None,Smartphone,None
+65-74,Tertiary,High,Limited access,Occasionally,None,Never,None,Basic (Feature Phone),Intermediate
+85+,Secondary,Low,Limited access,Frequently,Moderate,Never,None,Basic (Feature Phone),None
+75-84,Primary,Middle,Limited access,Never,High,Frequently,Advanced,Basic (Feature Phone),Advanced
+65-74,Secondary,Middle,Limited access,Never,Moderate,Never,Basic,Basic (Feature Phone),Basic
+75-84,Primary,Middle,No access,Rarely,High,Occasionally,Basic,None,Basic
+75-84,Secondary,High,No access,Occasionally,High,Never,None,None,None
+85+,Tertiary,Middle,Limited access,Occasionally,None,Rarely,None,None,Advanced
+85+,Primary,Low,Limited access,Frequently,High,Never,Basic,Smartphone,Basic
+85+,Secondary,Low,Limited access,Occasionally,Moderate,Never,Basic,Smartphone,Basic
+65-74,Primary,Low,Limited access,Frequently,Moderate,Never,None,Smartphone,None
+65-74,Secondary,Low,Reliable access,Rarely,High,Never,None,None,None
+85+,Secondary,High,Reliable access,Rarely,Minimal,Never,None,Basic (Feature Phone),None
+85+,Secondary,Middle,No access,Frequently,High,Occasionally,None,None,None
+85+,No formal education,Middle,No access,Never,High,Occasionally,Intermediate,None,Advanced
+85+,Secondary,Middle,Limited access,Occasionally,Moderate,Never,None,None,None
+65-74,Secondary,Middle,No access,Occasionally,None,Never,None,Basic (Feature Phone),None
+65-74,Secondary,Middle,Reliable access,Rarely,Moderate,Rarely,None,Smartphone,None
+75-84,Secondary,Low,Reliable access,Never,Moderate,Never,Advanced,None,Advanced
+65-74,Primary,Low,Limited access,Frequently,Minimal,Never,Basic,None,Intermediate
+65-74,Secondary,Middle,No access,Occasionally,None,Rarely,None,Smartphone,None
+65-74,Tertiary,Low,Reliable access,Rarely,Minimal,Never,Basic,Smartphone,Advanced
+65-74,Tertiary,Low,Reliable access,Rarely,None,Never,None,Basic (Feature Phone),Advanced
+65-74,Tertiary,Middle,No access,Frequently,None,Never,Intermediate,None,Advanced
+65-74,No formal education,Middle,No access,Rarely,Moderate,Never,None,Smartphone,None
+85+,Tertiary,Middle,Limited access,Occasionally,High,Occasionally,None,Smartphone,Advanced
+65-74,Secondary,Low,Limited access,Rarely,None,Rarely,Intermediate,None,Intermediate
+75-84,Secondary,Middle,Limited access,Occasionally,Moderate,Never,None,Basic (Feature Phone),None
+65-74,Secondary,Low,Limited access,Rarely,High,Never,Basic,Basic (Feature Phone),Basic
+65-74,Primary,Middle,Reliable access,Occasionally,Moderate,Never,None,Smartphone,None
+65-74,Secondary,Low,Limited access,Rarely,None,Never,None,None,Basic
+65-74,Tertiary,Middle,Reliable access,Occasionally,Minimal,Never,Basic,Laptop/Desktop,Intermediate
+85+,Secondary,Middle,Limited access,Rarely,None,Frequently,None,None,Basic
+85+,Primary,High,Limited access,Frequently,Moderate,Rarely,None,None,None
+65-74,Secondary,Middle,Reliable access,Never,Moderate,Never,Basic,None,Basic
+65-74,Primary,Low,Limited access,Occasionally,Moderate,Occasionally,None,None,None
+65-74,Primary,Low,Limited access,Frequently,Minimal,Never,None,None,None
+85+,Primary,Low,Limited access,Rarely,Moderate,Occasionally,Advanced,Basic (Feature Phone),Intermediate
+65-74,Secondary,Low,No access,Never,Moderate,Rarely,None,Smartphone,Basic
+75-84,Secondary,Low,Limited access,Never,Moderate,Occasionally,None,None,None
+65-74,Secondary,Middle,No access,Rarely,High,Never,Basic,Basic (Feature Phone),Basic
+75-84,Primary,High,No access,Never,Minimal,Never,Basic,Basic (Feature Phone),Basic
+65-74,Tertiary,High,Limited access,Rarely,Moderate,Rarely,Basic,Smartphone,Advanced
+85+,No formal education,Low,Reliable access,Rarely,Moderate,Never,Advanced,Smartphone,Intermediate
+65-74,Primary,Low,Limited access,Never,Moderate,Never,Intermediate,Basic (Feature Phone),Advanced
+65-74,Secondary,Low,No access,Never,None,Frequently,Advanced,None,Intermediate
+75-84,Primary,Low,Limited access,Occasionally,High,Occasionally,None,None,None
+65-74,Tertiary,Middle,No access,Frequently,Minimal,Never,Basic,Laptop/Desktop,Advanced
+75-84,Secondary,Low,Reliable access,Occasionally,Moderate,Never,None,Basic (Feature Phone),None
+75-84,Secondary,Middle,No access,Frequently,None,Never,Basic,Basic (Feature Phone),Intermediate
+75-84,Secondary,High,Limited access,Occasionally,Minimal,Rarely,None,None,None
+85+,Tertiary,Low,No access,Rarely,None,Frequently,Basic,Basic (Feature Phone),Intermediate
+75-84,Primary,Middle,Reliable access,Occasionally,Moderate,Rarely,None,Smartphone,None
+85+,Primary,Low,No access,Frequently,None,Occasionally,None,None,None
+65-74,Secondary,Middle,Limited access,Never,Minimal,Never,None,None,None
+75-84,Tertiary,Middle,Limited access,Rarely,Moderate,Never,None,Basic (Feature Phone),Intermediate
+85+,Secondary,Low,Limited access,Rarely,Minimal,Never,None,None,None
+65-74,Secondary,High,Limited access,Occasionally,None,Never,Intermediate,None,Advanced
+65-74,Secondary,Middle,Limited access,Never,High,Never,None,None,None
+85+,Secondary,High,Limited access,Occasionally,High,Rarely,None,Smartphone,None
+75-84,Secondary,Low,No access,Rarely,Moderate,Never,None,Basic (Feature Phone),None
+65-74,Tertiary,Middle,Limited access,Occasionally,Moderate,Never,None,Smartphone,Advanced
+65-74,Secondary,Low,Limited access,Never,Moderate,Rarely,Basic,Basic (Feature Phone),Basic
+85+,Secondary,Middle,Limited access,Rarely,None,Rarely,None,None,Basic
+75-84,No formal education,High,Limited access,Never,High,Never,Basic,Smartphone,None
+65-74,Tertiary,Low,Limited access,Occasionally,High,Never,None,Smartphone,Intermediate
+65-74,Secondary,Middle,No access,Never,None,Rarely,Advanced,None,Intermediate
+65-74,Secondary,Low,Limited access,Never,Moderate,Never,None,Smartphone,None
+65-74,Secondary,High,Reliable access,Occasionally,High,Rarely,Basic,None,Basic
+65-74,Secondary,Middle,No access,Occasionally,High,Occasionally,Basic,Smartphone,Basic
+65-74,Primary,Low,Reliable access,Never,Moderate,Rarely,Basic,None,None
+65-74,Primary,Middle,No access,Occasionally,Minimal,Never,Basic,None,Intermediate
+75-84,Tertiary,Middle,No access,Frequently,Moderate,Never,Basic,None,Advanced
+75-84,Primary,High,Limited access,Occasionally,High,Rarely,Basic,None,Intermediate
+65-74,Primary,High,Limited access,Frequently,None,Frequently,None,Smartphone,None
+85+,Secondary,High,Reliable access,Occasionally,Minimal,Never,None,Laptop/Desktop,None
+75-84,Primary,High,Reliable access,Frequently,Moderate,Occasionally,None,Basic (Feature Phone),None
+75-84,Primary,High,No access,Occasionally,Minimal,Occasionally,Intermediate,Smartphone,Advanced
+75-84,Primary,Middle,Limited access,Never,Minimal,Occasionally,Intermediate,Laptop/Desktop,Advanced
+65-74,Primary,Middle,Reliable access,Frequently,None,Rarely,None,None,None
+65-74,Primary,Middle,Limited access,Occasionally,Minimal,Never,None,None,None
+65-74,Secondary,Middle,Limited access,Rarely,Moderate,Rarely,Basic,Smartphone,Basic
+65-74,Secondary,Low,No access,Frequently,Minimal,Never,Basic,Smartphone,Intermediate
+85+,Secondary,Middle,Limited access,Frequently,Minimal,Never,Advanced,Smartphone,Intermediate
+65-74,Secondary,Middle,Limited access,Occasionally,Minimal,Never,None,Basic (Feature Phone),None
+65-74,Tertiary,Low,Limited access,Frequently,None,Never,Basic,Smartphone,Advanced
+85+,Secondary,Low,Limited access,Occasionally,Moderate,Occasionally,Advanced,None,Intermediate
+75-84,No formal education,Middle,Reliable access,Rarely,None,Rarely,Intermediate,None,Advanced
+75-84,Primary,Middle,Limited access,Occasionally,High,Rarely,Basic,Laptop/Desktop,Intermediate
+75-84,Secondary,High,No access,Rarely,None,Never,None,None,Basic
+65-74,Tertiary,Middle,No access,Occasionally,None,Never,Basic,Laptop/Desktop,Advanced
+65-74,Secondary,High,Limited access,Rarely,Moderate,Rarely,None,None,Basic
+85+,Tertiary,Middle,No access,Rarely,Moderate,Rarely,None,Basic (Feature Phone),Intermediate
+85+,Secondary,Middle,No access,Never,Minimal,Never,Advanced,Laptop/Desktop,Intermediate
+75-84,Secondary,Middle,Limited access,Frequently,Minimal,Rarely,None,Laptop/Desktop,None
+85+,Primary,High,No access,Occasionally,Minimal,Rarely,Basic,Smartphone,Basic
+85+,Secondary,Middle,No access,Occasionally,Moderate,Rarely,None,Laptop/Desktop,None
+75-84,Secondary,High,Limited access,Occasionally,Minimal,Never,None,None,None
+85+,Tertiary,Low,No access,Occasionally,High,Occasionally,Intermediate,Basic (Feature Phone),Intermediate
+65-74,Secondary,Middle,Limited access,Rarely,Moderate,Never,Basic,Smartphone,None
+85+,Secondary,High,No access,Never,Moderate,Never,Basic,Basic (Feature Phone),Basic
+65-74,Secondary,Low,Limited access,Frequently,Moderate,Occasionally,None,Smartphone,None
+75-84,Secondary,Low,Limited access,Occasionally,Moderate,Rarely,None,Basic (Feature Phone),None
+65-74,Primary,Low,Reliable access,Frequently,None,Rarely,None,Smartphone,None
+65-74,No formal education,Low,No access,Frequently,Minimal,Never,None,Smartphone,None
+65-74,No formal education,Middle,Limited access,Rarely,Moderate,Never,Basic,None,None
+75-84,Tertiary,Low,Reliable access,Frequently,Minimal,Rarely,Intermediate,Smartphone,Advanced
+85+,Primary,Low,Reliable access,Occasionally,Moderate,Never,Intermediate,None,Advanced
+65-74,Secondary,High,Reliable access,Rarely,Moderate,Never,Basic,Basic (Feature Phone),None
+65-74,Tertiary,Low,Reliable access,Rarely,None,Frequently,Advanced,Laptop/Desktop,Advanced
+65-74,Secondary,Middle,Limited access,Never,Minimal,Never,Intermediate,Basic (Feature Phone),Intermediate
+65-74,Secondary,Low,Reliable access,Rarely,Minimal,Occasionally,None,Basic (Feature Phone),Basic
+75-84,Secondary,Low,No access,Occasionally,Moderate,Never,None,None,None
+65-74,Secondary,Middle,Reliable access,Rarely,Minimal,Never,Basic,None,Basic
+65-74,Secondary,Middle,Limited access,Occasionally,Moderate,Rarely,None,Laptop/Desktop,None
+85+,Primary,Low,Reliable access,Rarely,Moderate,Rarely,Basic,Smartphone,Basic
+65-74,Primary,High,No access,Occasionally,High,Never,None,Basic (Feature Phone),None
+65-74,Tertiary,High,Limited access,Rarely,Minimal,Rarely,None,Basic (Feature Phone),Intermediate
+65-74,Tertiary,Middle,No access,Occasionally,Minimal,Rarely,None,Smartphone,Advanced
+75-84,Primary,High,Reliable access,Occasionally,Moderate,Rarely,None,Smartphone,None
+75-84,No formal education,Middle,No access,Occasionally,Moderate,Rarely,None,Basic (Feature Phone),None
+65-74,Secondary,Low,Reliable access,Frequently,High,Never,Advanced,None,Advanced
+65-74,Tertiary,Middle,Limited access,Occasionally,Moderate,Never,Intermediate,Smartphone,Advanced
+85+,Tertiary,Low,Limited access,Never,High,Never,Basic,Smartphone,Intermediate
+65-74,Primary,High,No access,Occasionally,Moderate,Occasionally,None,None,None
+65-74,Primary,Low,Reliable access,Never,None,Never,Intermediate,Laptop/Desktop,Advanced
+65-74,Primary,Middle,Limited access,Frequently,Moderate,Rarely,Basic,Laptop/Desktop,Basic
+75-84,Primary,Low,Limited access,Rarely,None,Never,Basic,Basic (Feature Phone),Basic
+65-74,No formal education,Low,Limited access,Never,High,Frequently,None,Basic (Feature Phone),None
+85+,No formal education,Middle,No access,Occasionally,Minimal,Occasionally,Basic,None,Intermediate
+75-84,Primary,Middle,No access,Frequently,Moderate,Rarely,None,Smartphone,None
+65-74,Primary,Low,No access,Rarely,Moderate,Never,None,Smartphone,None
+65-74,Tertiary,Low,Limited access,Rarely,High,Occasionally,None,Smartphone,Advanced
+85+,Secondary,Low,No access,Rarely,None,Rarely,Basic,Smartphone,None
+75-84,Primary,Middle,Limited access,Rarely,High,Occasionally,None,Smartphone,Basic
+75-84,Tertiary,Low,Limited access,Occasionally,Minimal,Never,None,None,Advanced
+65-74,Secondary,Middle,Reliable access,Rarely,Minimal,Rarely,None,None,Basic
+75-84,Secondary,Low,Limited access,Frequently,High,Rarely,None,Smartphone,None
+65-74,Secondary,Middle,Limited access,Rarely,None,Never,Basic,Basic (Feature Phone),Basic
+65-74,Primary,Low,Limited access,Occasionally,Minimal,Never,None,Smartphone,None
+65-74,Secondary,Low,Limited access,Rarely,Minimal,Never,None,Smartphone,Basic
+75-84,Secondary,Middle,No access,Never,High,Never,None,Basic (Feature Phone),Basic
+65-74,Primary,Low,Limited access,Occasionally,None,Occasionally,Basic,Basic (Feature Phone),Basic
+85+,Tertiary,Middle,Limited access,Occasionally,High,Never,None,Laptop/Desktop,Advanced
+65-74,Tertiary,Middle,Reliable access,Frequently,Moderate,Never,Basic,None,Intermediate
+75-84,Primary,Low,No access,Rarely,Minimal,Never,None,Smartphone,None
+75-84,Secondary,Middle,No access,Rarely,High,Never,None,Smartphone,None
+75-84,Secondary,Low,No access,Frequently,High,Occasionally,None,Basic (Feature Phone),None
+75-84,No formal education,Low,No access,Never,None,Rarely,Basic,Basic (Feature Phone),None
+75-84,Tertiary,Low,Limited access,Occasionally,Minimal,Rarely,None,Basic (Feature Phone),Advanced
+65-74,Primary,Middle,No access,Rarely,None,Rarely,Basic,Smartphone,None
+85+,Tertiary,High,Limited access,Rarely,Moderate,Never,Intermediate,None,Advanced
+65-74,Primary,Low,No access,Rarely,Moderate,Never,Basic,None,None
+65-74,Tertiary,Low,Limited access,Occasionally,High,Frequently,None,Basic (Feature Phone),Intermediate
+65-74,Tertiary,Low,No access,Frequently,None,Rarely,Advanced,None,Advanced
+75-84,Secondary,Middle,No access,Rarely,Moderate,Occasionally,Intermediate,Smartphone,Advanced
+65-74,Tertiary,Low,Reliable access,Frequently,Moderate,Rarely,Basic,None,Advanced
+65-74,Primary,Middle,Limited access,Never,Moderate,Never,Advanced,Laptop/Desktop,Advanced
+65-74,Secondary,Low,No access,Rarely,High,Rarely,None,Smartphone,Basic
+75-84,Primary,Low,Reliable access,Frequently,High,Rarely,None,None,None
+65-74,Secondary,Middle,Limited access,Frequently,Minimal,Never,Basic,Basic (Feature Phone),Intermediate
+75-84,Secondary,Middle,No access,Never,High,Rarely,None,Basic (Feature Phone),None
+65-74,Primary,Low,No access,Rarely,Moderate,Rarely,Basic,Laptop/Desktop,Basic
+85+,Primary,Middle,Reliable access,Occasionally,High,Never,Basic,Laptop/Desktop,Basic
+65-74,Secondary,Low,Limited access,Rarely,None,Never,None,Basic (Feature Phone),None
+65-74,Primary,Low,No access,Never,None,Never,None,Smartphone,Basic
+65-74,Secondary,Low,Reliable access,Frequently,None,Never,Basic,Smartphone,Intermediate
+85+,Tertiary,Middle,Limited access,Rarely,Moderate,Rarely,None,Laptop/Desktop,Advanced
+65-74,No formal education,High,No access,Rarely,Moderate,Rarely,None,Laptop/Desktop,None
+65-74,Secondary,Low,No access,Frequently,High,Occasionally,Basic,Smartphone,Basic
+65-74,No formal education,Middle,Limited access,Occasionally,Moderate,Rarely,None,Basic (Feature Phone),None
+65-74,Secondary,High,Limited access,Occasionally,Moderate,Rarely,None,Laptop/Desktop,None
+65-74,Secondary,Middle,Limited access,Occasionally,Moderate,Never,Basic,Basic (Feature Phone),Basic
+75-84,Secondary,Middle,No access,Frequently,Minimal,Occasionally,None,Basic (Feature Phone),None
+65-74,Tertiary,Low,No access,Never,Moderate,Never,None,Smartphone,Advanced
+65-74,No formal education,High,Limited access,Never,Moderate,Frequently,None,Basic (Feature Phone),None
+75-84,Primary,Middle,No access,Never,High,Never,None,None,Basic
+85+,Primary,Middle,No access,Occasionally,Moderate,Rarely,None,None,None
+75-84,Secondary,Middle,Reliable access,Rarely,Minimal,Never,Basic,Basic (Feature Phone),None
+65-74,Primary,Middle,Limited access,Rarely,Moderate,Never,Basic,None,Basic
+75-84,Primary,Low,Limited access,Rarely,Minimal,Never,Intermediate,Smartphone,Advanced
+65-74,Primary,Low,Limited access,Frequently,High,Never,None,Smartphone,None
+65-74,Secondary,Middle,Limited access,Occasionally,None,Never,None,Basic (Feature Phone),None
+75-84,Tertiary,Middle,Limited access,Occasionally,High,Never,None,None,Advanced
+65-74,Secondary,Low,No access,Rarely,Moderate,Never,None,Smartphone,Basic
+75-84,Primary,Low,Limited access,Rarely,Minimal,Never,Intermediate,Basic (Feature Phone),Advanced
+75-84,Primary,Low,Reliable access,Rarely,Moderate,Rarely,Intermediate,None,Advanced
+85+,Secondary,Middle,Limited access,Rarely,Minimal,Rarely,None,Smartphone,Basic
+85+,Primary,High,Limited access,Never,Minimal,Occasionally,None,None,Basic
+85+,Primary,Middle,Reliable access,Rarely,None,Rarely,Intermediate,Smartphone,Intermediate
+75-84,Tertiary,Middle,Reliable access,Frequently,High,Never,Intermediate,Laptop/Desktop,Advanced
+65-74,Secondary,Middle,Limited access,Occasionally,None,Never,Basic,Smartphone,Intermediate
+65-74,Tertiary,Middle,Reliable access,Occasionally,Minimal,Rarely,Advanced,Laptop/Desktop,Intermediate
+75-84,Tertiary,Low,Limited access,Rarely,Moderate,Never,Basic,Smartphone,Advanced
+65-74,Secondary,Middle,Reliable access,Rarely,High,Never,None,Basic (Feature Phone),None
+75-84,Primary,Low,No access,Never,None,Never,None,None,None
+75-84,Primary,Middle,Limited access,Frequently,Moderate,Never,None,None,None
+65-74,Tertiary,Middle,No access,Rarely,None,Frequently,None,Basic (Feature Phone),Intermediate
+65-74,Tertiary,Low,Limited access,Rarely,Moderate,Never,None,Laptop/Desktop,Advanced
+65-74,Secondary,High,Limited access,Frequently,None,Never,None,None,None
+85+,Secondary,High,Limited access,Never,Minimal,Rarely,None,Laptop/Desktop,Basic
+75-84,Secondary,Middle,Limited access,Occasionally,High,Never,Basic,None,Basic
+75-84,Secondary,Middle,No access,Frequently,High,Never,None,Smartphone,None
+85+,Secondary,Middle,No access,Occasionally,Moderate,Rarely,Basic,None,Intermediate
+65-74,Primary,Middle,Reliable access,Rarely,Moderate,Never,Basic,Basic (Feature Phone),Basic
+65-74,Secondary,High,No access,Occasionally,Minimal,Occasionally,Basic,Smartphone,Intermediate
+65-74,Primary,Middle,Limited access,Occasionally,Moderate,Never,Basic,Smartphone,Intermediate
+65-74,Secondary,Middle,No access,Occasionally,Minimal,Occasionally,Basic,Smartphone,Basic
+65-74,Secondary,High,Reliable access,Rarely,Minimal,Rarely,Intermediate,Basic (Feature Phone),Advanced
+65-74,Primary,Low,Limited access,Rarely,High,Never,None,Basic (Feature Phone),Basic
+65-74,Primary,Low,Limited access,Frequently,Moderate,Never,Basic,Laptop/Desktop,Intermediate
+65-74,Tertiary,Low,Limited access,Rarely,Minimal,Rarely,None,None,Advanced
+65-74,Primary,Low,Reliable access,Never,Minimal,Occasionally,None,None,Basic
+75-84,Secondary,Middle,No access,Rarely,Minimal,Never,None,None,Basic
+75-84,No formal education,Middle,Limited access,Occasionally,None,Rarely,None,Basic (Feature Phone),None
+65-74,Primary,Middle,Reliable access,Rarely,None,Occasionally,None,Laptop/Desktop,Basic
+75-84,Secondary,Low,Limited access,Occasionally,High,Never,Basic,Smartphone,Basic
+65-74,Primary,Middle,Limited access,Rarely,None,Occasionally,Intermediate,Smartphone,Advanced
+75-84,Primary,Low,No access,Occasionally,High,Rarely,None,Smartphone,None
+75-84,Secondary,High,Limited access,Occasionally,None,Occasionally,None,None,None
+65-74,Secondary,Low,No access,Frequently,Moderate,Never,Advanced,None,Advanced
+75-84,No formal education,Low,Limited access,Occasionally,Moderate,Never,Basic,Laptop/Desktop,Intermediate
+65-74,Primary,Low,No access,Rarely,High,Frequently,None,Basic (Feature Phone),Basic
+75-84,Secondary,Middle,No access,Frequently,Minimal,Rarely,Intermediate,Basic (Feature Phone),Advanced
+75-84,Secondary,Low,Reliable access,Occasionally,High,Never,Basic,Smartphone,Basic
+65-74,Secondary,High,No access,Rarely,Moderate,Never,Basic,Basic (Feature Phone),None
+75-84,Secondary,Low,Reliable access,Frequently,Moderate,Never,Intermediate,Basic (Feature Phone),Advanced
+65-74,Secondary,Low,No access,Rarely,High,Rarely,Basic,None,None
+65-74,No formal education,Low,Reliable access,Rarely,High,Rarely,None,Basic (Feature Phone),None
+65-74,Tertiary,Middle,Reliable access,Never,None,Never,Basic,Laptop/Desktop,Advanced
+65-74,No formal education,Middle,Limited access,Rarely,None,Rarely,Basic,Basic (Feature Phone),None
+85+,Tertiary,Low,Reliable access,Occasionally,Minimal,Rarely,Advanced,Basic (Feature Phone),Advanced
+65-74,Secondary,Middle,Limited access,Never,Moderate,Rarely,Advanced,Basic (Feature Phone),Advanced
+75-84,Secondary,Low,No access,Occasionally,High,Never,None,Basic (Feature Phone),None
+85+,Primary,Middle,Limited access,Rarely,None,Never,None,Smartphone,None
+65-74,Secondary,Low,No access,Occasionally,Minimal,Occasionally,None,None,None
+65-74,No formal education,Middle,Limited access,Rarely,None,Never,None,None,None
+65-74,Tertiary,Middle,No access,Occasionally,None,Rarely,None,Basic (Feature Phone),Advanced
+65-74,Primary,Low,Reliable access,Never,High,Never,None,Basic (Feature Phone),None
+75-84,Tertiary,Middle,No access,Occasionally,Moderate,Never,Basic,Smartphone,Advanced
+85+,Tertiary,Low,Limited access,Occasionally,High,Never,Intermediate,Laptop/Desktop,Intermediate
+85+,Tertiary,Low,Reliable access,Occasionally,Minimal,Never,None,Smartphone,Advanced
+65-74,Primary,Low,No access,Never,Moderate,Rarely,None,Smartphone,Basic
+85+,Secondary,Low,No access,Occasionally,Moderate,Rarely,Intermediate,Smartphone,Advanced
+65-74,Secondary,Low,Limited access,Frequently,Moderate,Rarely,None,Smartphone,None
+65-74,No formal education,High,Limited access,Frequently,None,Rarely,Basic,None,Basic
+85+,Tertiary,Low,Reliable access,Frequently,Minimal,Never,Intermediate,Smartphone,Advanced
+65-74,Secondary,High,Limited access,Occasionally,None,Never,Basic,Basic (Feature Phone),Intermediate
+85+,Secondary,Middle,Limited access,Occasionally,Minimal,Never,None,Laptop/Desktop,None
+75-84,Primary,Middle,Limited access,Occasionally,Minimal,Frequently,None,Smartphone,None
+85+,Primary,High,No access,Never,Moderate,Rarely,Basic,Smartphone,None
+75-84,Tertiary,Middle,No access,Occasionally,Moderate,Rarely,None,Laptop/Desktop,Intermediate
+75-84,Secondary,Low,No access,Occasionally,None,Rarely,None,Basic (Feature Phone),None
+85+,Secondary,Low,Limited access,Never,None,Frequently,Basic,Basic (Feature Phone),Basic
+75-84,Secondary,Middle,No access,Rarely,Moderate,Occasionally,None,Basic (Feature Phone),None
+65-74,Tertiary,Middle,No access,Rarely,Moderate,Never,Intermediate,Laptop/Desktop,Intermediate
+85+,Primary,Low,Reliable access,Rarely,None,Occasionally,Intermediate,Basic (Feature Phone),Advanced
+65-74,Tertiary,Middle,No access,Occasionally,Moderate,Never,None,Basic (Feature Phone),Advanced
+65-74,Secondary,Low,No access,Rarely,None,Never,Basic,Laptop/Desktop,None
+75-84,Primary,Middle,No access,Occasionally,Minimal,Occasionally,Basic,Basic (Feature Phone),Intermediate
+85+,Secondary,Middle,Reliable access,Never,Moderate,Occasionally,Basic,Smartphone,None
+85+,No formal education,Low,Reliable access,Rarely,None,Rarely,None,Smartphone,None
+75-84,Primary,Low,No access,Rarely,High,Rarely,None,None,Basic
+65-74,Secondary,Middle,Limited access,Occasionally,Minimal,Never,None,Laptop/Desktop,None
+65-74,Primary,Middle,No access,Never,Moderate,Frequently,Intermediate,Smartphone,Advanced
+75-84,Secondary,Low,Limited access,Frequently,Minimal,Rarely,Intermediate,Smartphone,Advanced
+85+,Secondary,Low,Reliable access,Rarely,High,Rarely,None,Laptop/Desktop,None
+65-74,Primary,Middle,No access,Never,Minimal,Rarely,Basic,Smartphone,None
+65-74,Secondary,High,No access,Never,High,Never,Basic,Smartphone,Basic
+85+,Secondary,High,Reliable access,Never,Minimal,Frequently,Intermediate,None,Advanced
+65-74,Secondary,Low,Limited access,Occasionally,None,Rarely,None,Basic (Feature Phone),None
+85+,No formal education,Low,Reliable access,Occasionally,Minimal,Frequently,None,Smartphone,None
+75-84,Tertiary,Middle,Reliable access,Rarely,Minimal,Rarely,Basic,Laptop/Desktop,Intermediate
+75-84,No formal education,Middle,Limited access,Never,Minimal,Never,Basic,None,None
+65-74,Tertiary,Middle,No access,Rarely,High,Never,Basic,None,Advanced
+75-84,Primary,Middle,No access,Rarely,Minimal,Never,Intermediate,Basic (Feature Phone),Advanced
+65-74,Primary,High,Limited access,Rarely,Moderate,Never,None,Smartphone,Basic
+85+,Secondary,High,No access,Frequently,Minimal,Rarely,None,Laptop/Desktop,None
+65-74,Tertiary,Middle,No access,Occasionally,Minimal,Never,Basic,Basic (Feature Phone),Advanced
+75-84,Secondary,Middle,Reliable access,Rarely,Moderate,Occasionally,None,Smartphone,Basic
+75-84,Secondary,Low,Reliable access,Rarely,Moderate,Never,Basic,None,Basic
+75-84,Secondary,Middle,No access,Occasionally,Moderate,Never,None,Basic (Feature Phone),None
+85+,Primary,Middle,Reliable access,Frequently,Moderate,Rarely,None,None,None
+65-74,Secondary,Low,Limited access,Never,Moderate,Never,Intermediate,None,Advanced
+65-74,Secondary,Middle,Reliable access,Occasionally,None,Never,None,None,None
+65-74,Secondary,High,Limited access,Never,None,Never,Basic,None,None
+75-84,Secondary,Low,Limited access,Never,High,Occasionally,Basic,Basic (Feature Phone),Basic
+65-74,Secondary,High,No access,Rarely,Moderate,Never,None,Smartphone,None
+65-74,Tertiary,High,Reliable access,Occasionally,None,Occasionally,None,Smartphone,Advanced
+65-74,Secondary,Middle,Limited access,Rarely,High,Never,None,Basic (Feature Phone),None
+65-74,Primary,Middle,No access,Occasionally,Minimal,Occasionally,Basic,Basic (Feature Phone),Intermediate
+75-84,Secondary,High,Limited access,Never,None,Rarely,None,Basic (Feature Phone),None
+75-84,Secondary,Low,Limited access,Rarely,Moderate,Rarely,None,Basic (Feature Phone),Basic
+65-74,Secondary,Middle,Limited access,Rarely,Moderate,Rarely,Intermediate,None,Advanced
+75-84,Primary,Low,Reliable access,Never,High,Occasionally,Basic,Basic (Feature Phone),None
+75-84,Primary,High,Limited access,Rarely,Moderate,Never,Intermediate,Laptop/Desktop,Advanced
+85+,Tertiary,Low,Limited access,Rarely,None,Never,Basic,Basic (Feature Phone),Advanced
+85+,Primary,Low,Limited access,Occasionally,Moderate,Frequently,Basic,Basic (Feature Phone),Intermediate
+65-74,Primary,Low,Reliable access,Never,Moderate,Rarely,None,Smartphone,None
+65-74,Primary,Low,Limited access,Occasionally,High,Never,None,Basic (Feature Phone),None
+85+,No formal education,Low,Limited access,Rarely,Minimal,Rarely,None,Basic (Feature Phone),None
+75-84,Tertiary,Low,No access,Occasionally,None,Rarely,None,Basic (Feature Phone),Advanced
+85+,Secondary,Low,No access,Occasionally,Moderate,Never,None,Basic (Feature Phone),None
+65-74,Secondary,High,Limited access,Rarely,None,Never,None,Smartphone,None
+85+,Secondary,Low,Limited access,Rarely,Minimal,Rarely,Basic,None,None
+85+,Primary,Low,Limited access,Frequently,High,Never,None,None,None
+65-74,Secondary,High,Limited access,Occasionally,Moderate,Never,None,None,None
+65-74,No formal education,High,Limited access,Frequently,Minimal,Never,None,Basic (Feature Phone),None
+75-84,Secondary,Low,Limited access,Rarely,Moderate,Frequently,Basic,Laptop/Desktop,Basic
+85+,No formal education,Middle,Limited access,Occasionally,High,Rarely,None,Smartphone,None
+65-74,Tertiary,Middle,No access,Occasionally,Minimal,Never,Basic,Smartphone,Advanced
+75-84,Tertiary,Middle,Reliable access,Occasionally,Moderate,Frequently,Intermediate,Smartphone,Advanced
+85+,Primary,Middle,Limited access,Rarely,High,Occasionally,None,Basic (Feature Phone),None
+65-74,No formal education,High,Reliable access,Rarely,Moderate,Never,None,None,None
+85+,Secondary,High,Reliable access,Occasionally,Moderate,Occasionally,Intermediate,Smartphone,Intermediate
+65-74,Secondary,High,Limited access,Occasionally,Minimal,Never,Basic,Basic (Feature Phone),Basic
+65-74,Secondary,Middle,Limited access,Frequently,None,Frequently,Basic,Laptop/Desktop,Intermediate
+65-74,No formal education,Middle,No access,Frequently,Minimal,Never,Basic,Basic (Feature Phone),Intermediate
+65-74,Secondary,Low,Limited access,Never,High,Rarely,None,Smartphone,None
+65-74,Secondary,High,No access,Occasionally,Minimal,Never,Basic,Basic (Feature Phone),Intermediate
+65-74,Tertiary,Middle,No access,Never,Minimal,Never,None,None,Advanced
+65-74,Secondary,Middle,Limited access,Never,Minimal,Never,None,Laptop/Desktop,Basic
+85+,Primary,Middle,Reliable access,Frequently,High,Occasionally,Advanced,Smartphone,Advanced
+65-74,No formal education,Middle,Limited access,Frequently,Moderate,Never,None,None,None
+65-74,Tertiary,Middle,Limited access,Occasionally,Moderate,Frequently,Intermediate,Laptop/Desktop,Advanced
+75-84,Secondary,Middle,Reliable access,Frequently,Moderate,Never,None,None,None
+65-74,No formal education,High,Limited access,Never,High,Frequently,None,Laptop/Desktop,None
+75-84,Secondary,Low,Limited access,Occasionally,Minimal,Frequently,Basic,None,Intermediate
+65-74,Secondary,Low,No access,Occasionally,None,Occasionally,Basic,None,Intermediate
+75-84,No formal education,Low,Limited access,Frequently,Moderate,Never,None,Smartphone,None
+65-74,Tertiary,Middle,Limited access,Frequently,Moderate,Never,Basic,Basic (Feature Phone),Advanced
+75-84,Primary,Middle,Limited access,Rarely,Moderate,Rarely,Basic,Smartphone,Basic
+85+,Secondary,Middle,No access,Rarely,Moderate,Never,None,Laptop/Desktop,None
+85+,Secondary,Middle,Reliable access,Never,Moderate,Frequently,None,Smartphone,Basic
+65-74,No formal education,Middle,Reliable access,Occasionally,None,Rarely,None,Basic (Feature Phone),None
+75-84,Primary,Low,No access,Rarely,High,Never,Basic,Basic (Feature Phone),None
+65-74,No formal education,Low,Limited access,Occasionally,None,Never,Basic,Smartphone,Basic
+65-74,Tertiary,Low,Limited access,Rarely,Minimal,Rarely,Basic,Smartphone,Advanced
+65-74,Secondary,Middle,Limited access,Occasionally,Minimal,Rarely,None,Smartphone,None
+75-84,Primary,Low,Limited access,Occasionally,None,Rarely,Basic,None,Intermediate
+85+,Tertiary,Low,Limited access,Rarely,Moderate,Rarely,None,Laptop/Desktop,Advanced
+65-74,No formal education,Low,Limited access,Never,Moderate,Rarely,None,Basic (Feature Phone),None
+85+,Primary,Middle,Reliable access,Never,Minimal,Rarely,Basic,Basic (Feature Phone),None
+75-84,Secondary,High,Reliable access,Never,Moderate,Never,Basic,Laptop/Desktop,None
+75-84,Tertiary,Low,No access,Frequently,Minimal,Never,None,None,Advanced
+75-84,Primary,Middle,No access,Never,Moderate,Never,Intermediate,Smartphone,Intermediate
+65-74,Secondary,Middle,Reliable access,Never,Minimal,Never,None,Basic (Feature Phone),None
+85+,Primary,Middle,No access,Rarely,None,Never,Basic,Basic (Feature Phone),None
+65-74,Secondary,Low,Reliable access,Occasionally,High,Occasionally,None,Basic (Feature Phone),None
+75-84,Primary,High,Limited access,Never,Moderate,Occasionally,Basic,Smartphone,Basic
+85+,Primary,Low,Limited access,Never,None,Rarely,None,Smartphone,Basic
+65-74,Primary,Low,No access,Occasionally,Minimal,Rarely,None,None,None
+85+,Secondary,Middle,No access,Rarely,Moderate,Never,Basic,Smartphone,Basic
+65-74,No formal education,Low,No access,Rarely,None,Never,None,Smartphone,None
+75-84,Secondary,Low,Limited access,Never,Minimal,Never,None,Smartphone,None
+85+,Secondary,Middle,Limited access,Rarely,None,Occasionally,Basic,Smartphone,None
+65-74,Primary,Low,No access,Occasionally,Moderate,Never,Intermediate,Smartphone,Advanced
+65-74,Primary,High,Limited access,Never,None,Never,Advanced,Basic (Feature Phone),Advanced
+65-74,Primary,Low,Limited access,Occasionally,High,Frequently,None,Basic (Feature Phone),None
+65-74,Tertiary,Middle,Reliable access,Occasionally,Moderate,Never,Basic,Smartphone,Advanced
+65-74,Secondary,Middle,No access,Occasionally,Moderate,Rarely,Basic,Basic (Feature Phone),Intermediate
+75-84,Secondary,Middle,Reliable access,Frequently,High,Never,None,None,None
+75-84,Tertiary,High,No access,Frequently,Moderate,Never,None,Basic (Feature Phone),Intermediate
+65-74,Tertiary,Low,Limited access,Occasionally,Moderate,Occasionally,None,Basic (Feature Phone),Advanced
+65-74,Secondary,High,Limited access,Rarely,Moderate,Never,Intermediate,Laptop/Desktop,Advanced
+65-74,No formal education,High,Limited access,Rarely,High,Frequently,Basic,Basic (Feature Phone),None
+65-74,No formal education,Low,Limited access,Occasionally,Minimal,Occasionally,None,None,None
+65-74,Tertiary,Low,Limited access,Rarely,None,Occasionally,None,Smartphone,Advanced
+75-84,Secondary,Middle,Reliable access,Occasionally,None,Never,None,Basic (Feature Phone),None
+65-74,Primary,Low,Limited access,Rarely,Minimal,Rarely,Basic,None,None
+85+,No formal education,Low,No access,Rarely,Moderate,Frequently,Basic,None,None
+65-74,Tertiary,Middle,Limited access,Occasionally,Minimal,Never,Intermediate,Basic (Feature Phone),Intermediate
+65-74,Secondary,High,No access,Frequently,Minimal,Rarely,None,None,None
+65-74,Primary,Middle,Reliable access,Frequently,Moderate,Occasionally,None,Smartphone,None
+75-84,Secondary,Middle,Limited access,Frequently,Minimal,Occasionally,None,Laptop/Desktop,None
+75-84,Primary,Middle,Limited access,Frequently,High,Rarely,None,Smartphone,None
+75-84,Tertiary,Middle,No access,Rarely,Moderate,Rarely,None,None,Intermediate
+65-74,Secondary,High,No access,Occasionally,High,Never,None,Smartphone,None
+85+,Secondary,Low,Limited access,Rarely,Moderate,Occasionally,Intermediate,Basic (Feature Phone),Intermediate
+65-74,No formal education,Middle,Limited access,Rarely,Moderate,Never,None,Smartphone,None
+65-74,Secondary,Low,No access,Rarely,None,Frequently,None,Laptop/Desktop,Basic
+85+,Secondary,Middle,Limited access,Rarely,None,Rarely,Basic,Smartphone,None
+65-74,No formal education,Middle,Limited access,Never,Moderate,Never,Basic,None,None
+85+,Primary,High,Reliable access,Never,Minimal,Occasionally,Basic,Smartphone,Basic
+75-84,Primary,Middle,Limited access,Occasionally,High,Rarely,Basic,Basic (Feature Phone),Basic
+75-84,Primary,High,Limited access,Rarely,Moderate,Never,None,Basic (Feature Phone),None
+75-84,Primary,Middle,Limited access,Rarely,None,Occasionally,Basic,Basic (Feature Phone),Basic
+65-74,Secondary,Low,Limited access,Never,Minimal,Never,Basic,None,None
+65-74,No formal education,Low,No access,Occasionally,Minimal,Rarely,None,Smartphone,None
+65-74,Tertiary,Low,No access,Frequently,None,Rarely,Advanced,Smartphone,Advanced
+65-74,Primary,Low,Limited access,Occasionally,Minimal,Never,Basic,Basic (Feature Phone),Basic
+75-84,Tertiary,High,No access,Rarely,Moderate,Never,Basic,Basic (Feature Phone),Intermediate
+85+,Primary,Low,Limited access,Never,Minimal,Never,None,None,Basic
+75-84,No formal education,Low,Reliable access,Occasionally,Minimal,Rarely,Basic,None,Intermediate
+75-84,Primary,Low,Reliable access,Frequently,Moderate,Occasionally,None,Smartphone,None
+75-84,Secondary,Middle,Reliable access,Never,None,Rarely,Basic,None,None
+65-74,Secondary,Low,Reliable access,Rarely,Minimal,Occasionally,None,Basic (Feature Phone),Basic
+75-84,Primary,Middle,Limited access,Frequently,None,Rarely,Basic,Laptop/Desktop,Intermediate
+75-84,Secondary,Low,Reliable access,Occasionally,High,Occasionally,None,None,None
+75-84,Secondary,Middle,Limited access,Rarely,Moderate,Rarely,Intermediate,Smartphone,Advanced
+85+,Tertiary,Middle,No access,Never,None,Rarely,None,Laptop/Desktop,Intermediate
+85+,Secondary,Low,Limited access,Never,None,Rarely,None,Smartphone,Basic
+65-74,Primary,Low,Reliable access,Occasionally,None,Occasionally,None,Basic (Feature Phone),None
+85+,Tertiary,Low,No access,Rarely,Moderate,Rarely,None,Smartphone,Advanced
+65-74,Tertiary,High,Reliable access,Never,None,Occasionally,Basic,Laptop/Desktop,Advanced
+65-74,Secondary,Middle,Reliable access,Never,Minimal,Never,Intermediate,Laptop/Desktop,Intermediate
+65-74,Tertiary,Middle,No access,Occasionally,Moderate,Rarely,None,Smartphone,Advanced
+85+,Secondary,Middle,Reliable access,Frequently,Moderate,Never,Basic,Smartphone,Intermediate
+65-74,Secondary,Middle,No access,Occasionally,None,Never,Basic,Basic (Feature Phone),Intermediate
+85+,Secondary,Middle,Reliable access,Occasionally,None,Never,None,None,None
+75-84,Secondary,Low,No access,Frequently,Minimal,Never,Basic,Smartphone,Intermediate
+65-74,Secondary,High,Limited access,Never,Minimal,Rarely,None,None,Basic
+75-84,Tertiary,Middle,No access,Occasionally,Moderate,Never,Basic,None,Intermediate
+65-74,Secondary,Low,Limited access,Frequently,Moderate,Rarely,None,Smartphone,None
+85+,No formal education,Low,Limited access,Frequently,Minimal,Occasionally,None,Basic (Feature Phone),None
+75-84,Secondary,Low,Limited access,Rarely,None,Rarely,Basic,Smartphone,Basic
+85+,Tertiary,Middle,Limited access,Never,Moderate,Never,None,None,Advanced
+65-74,No formal education,Low,No access,Occasionally,None,Occasionally,Advanced,Basic (Feature Phone),Advanced
+65-74,Primary,Middle,No access,Occasionally,None,Never,None,Basic (Feature Phone),None
+65-74,Secondary,Low,Limited access,Frequently,Moderate,Frequently,Basic,Basic (Feature Phone),Basic
+75-84,No formal education,Low,Reliable access,Rarely,Moderate,Occasionally,Basic,Smartphone,None
+65-74,Secondary,Low,Limited access,Occasionally,None,Rarely,None,None,None
+65-74,Secondary,Middle,Limited access,Never,Minimal,Occasionally,Basic,Basic (Feature Phone),Basic
+65-74,Secondary,Low,Limited access,Never,Moderate,Occasionally,None,Laptop/Desktop,Basic
+65-74,Primary,Middle,Limited access,Occasionally,Moderate,Never,Intermediate,Smartphone,Advanced
+65-74,Secondary,Middle,No access,Rarely,Minimal,Never,None,Basic (Feature Phone),None
+65-74,No formal education,Low,Reliable access,Rarely,Moderate,Never,Intermediate,Basic (Feature Phone),Advanced
+65-74,Secondary,Low,Limited access,Rarely,Minimal,Never,None,Smartphone,Basic
+85+,Primary,Low,Limited access,Rarely,Minimal,Never,None,None,Basic
+75-84,Primary,Middle,Limited access,Occasionally,Minimal,Rarely,Intermediate,Basic (Feature Phone),Advanced
+65-74,Primary,High,Limited access,Frequently,Minimal,Rarely,None,Basic (Feature Phone),None
+65-74,Primary,Middle,No access,Frequently,Minimal,Rarely,None,Smartphone,None
+65-74,Secondary,Low,No access,Frequently,Moderate,Occasionally,None,Smartphone,None
+75-84,Primary,Middle,Limited access,Rarely,Minimal,Never,Advanced,Laptop/Desktop,Advanced
+65-74,Secondary,Middle,No access,Frequently,High,Never,Basic,Basic (Feature Phone),Basic
+65-74,No formal education,Middle,Limited access,Occasionally,Moderate,Never,Basic,None,Basic
+85+,Primary,Low,No access,Rarely,High,Rarely,None,Laptop/Desktop,None
+65-74,Secondary,High,Reliable access,Never,High,Frequently,None,Basic (Feature Phone),Basic
+75-84,Secondary,Middle,No access,Occasionally,Moderate,Rarely,None,None,None
+65-74,Tertiary,Middle,Reliable access,Never,Minimal,Rarely,None,Basic (Feature Phone),Advanced
+65-74,Secondary,High,No access,Never,None,Never,None,None,None
+75-84,No formal education,Low,Reliable access,Frequently,High,Never,Basic,Smartphone,Intermediate
+75-84,Tertiary,Low,Limited access,Frequently,None,Frequently,None,Smartphone,Advanced
+75-84,Primary,Middle,Limited access,Frequently,Minimal,Never,Basic,None,Intermediate
+75-84,Primary,Low,Reliable access,Never,High,Occasionally,Intermediate,Smartphone,Intermediate
+65-74,Primary,Low,Reliable access,Frequently,Minimal,Never,Intermediate,Smartphone,Advanced
+75-84,Primary,Middle,Reliable access,Rarely,None,Never,Intermediate,Smartphone,Advanced
+85+,Primary,Low,Limited access,Rarely,Moderate,Never,None,None,Basic
+65-74,No formal education,Low,No access,Rarely,Minimal,Never,Basic,None,None
+65-74,Primary,Low,Reliable access,Never,Moderate,Occasionally,Basic,Basic (Feature Phone),None
+65-74,Tertiary,Low,Limited access,Never,Moderate,Never,None,Smartphone,Advanced
+65-74,Secondary,Low,No access,Occasionally,Minimal,Occasionally,None,Basic (Feature Phone),None
+65-74,No formal education,Low,Limited access,Occasionally,Minimal,Rarely,None,Basic (Feature Phone),None
+75-84,Secondary,Low,Reliable access,Rarely,Minimal,Never,Intermediate,None,Intermediate
+75-84,Secondary,Middle,No access,Frequently,Moderate,Never,None,Smartphone,None
+65-74,Primary,High,Limited access,Rarely,Moderate,Never,None,Smartphone,None
+65-74,Secondary,Middle,No access,Rarely,None,Never,Basic,None,None
+65-74,Secondary,Low,No access,Frequently,High,Never,Intermediate,Basic (Feature Phone),Advanced
+65-74,Secondary,Low,No access,Occasionally,None,Frequently,None,None,None
+65-74,Tertiary,Low,No access,Frequently,High,Never,Intermediate,None,Advanced
+65-74,Secondary,Low,Limited access,Rarely,None,Never,Basic,Smartphone,Basic
+75-84,Secondary,Low,Limited access,Rarely,Moderate,Rarely,None,Basic (Feature Phone),None
+75-84,No formal education,Middle,No access,Frequently,Minimal,Never,Advanced,Basic (Feature Phone),Advanced
+65-74,Primary,Low,No access,Frequently,None,Rarely,None,Basic (Feature Phone),None
+65-74,No formal education,Low,No access,Never,Moderate,Occasionally,None,Smartphone,None
+65-74,Secondary,Middle,No access,Frequently,Moderate,Occasionally,Intermediate,None,Intermediate
+65-74,Tertiary,Middle,Limited access,Never,High,Rarely,None,Smartphone,Advanced
+65-74,Primary,Middle,Limited access,Rarely,Moderate,Never,Basic,None,None
+65-74,Tertiary,Middle,No access,Never,Moderate,Never,Intermediate,None,Advanced
+65-74,Primary,Low,Reliable access,Occasionally,Moderate,Occasionally,Basic,Smartphone,Basic
+65-74,Tertiary,Low,Limited access,Frequently,Moderate,Rarely,None,Basic (Feature Phone),Advanced
+85+,No formal education,High,No access,Occasionally,Moderate,Rarely,None,Smartphone,None
+85+,No formal education,Low,Reliable access,Frequently,None,Never,None,Smartphone,None
+75-84,Tertiary,High,Reliable access,Never,Moderate,Rarely,Basic,None,Advanced
+65-74,Secondary,Middle,Reliable access,Occasionally,None,Rarely,Basic,None,Intermediate
+85+,No formal education,Middle,Limited access,Rarely,Moderate,Occasionally,None,None,None
+65-74,No formal education,High,No access,Never,Minimal,Rarely,None,None,None
+75-84,Secondary,High,Limited access,Rarely,None,Frequently,None,Laptop/Desktop,Basic
+65-74,Tertiary,Middle,Limited access,Rarely,Minimal,Occasionally,None,Smartphone,Advanced
+65-74,No formal education,High,Reliable access,Occasionally,Moderate,Never,None,Basic (Feature Phone),None
+75-84,Primary,Middle,Limited access,Rarely,High,Rarely,None,Laptop/Desktop,None
+75-84,Secondary,Low,Limited access,Rarely,High,Never,Basic,Laptop/Desktop,Basic
+75-84,Secondary,Low,Limited access,Rarely,High,Never,Basic,Basic (Feature Phone),None
+65-74,Secondary,Low,Reliable access,Occasionally,None,Never,Intermediate,None,Advanced
+75-84,No formal education,High,No access,Rarely,Moderate,Rarely,Intermediate,Basic (Feature Phone),Advanced
+65-74,Secondary,Middle,Limited access,Occasionally,Minimal,Never,None,Laptop/Desktop,None
+75-84,Secondary,Low,Limited access,Frequently,None,Rarely,Basic,None,Intermediate
+85+,Secondary,High,Reliable access,Rarely,Moderate,Occasionally,None,Laptop/Desktop,None
+75-84,Tertiary,High,Limited access,Occasionally,Moderate,Never,Basic,Basic (Feature Phone),Advanced
+75-84,Secondary,Middle,Reliable access,Occasionally,Minimal,Never,Basic,Smartphone,Intermediate
+65-74,Primary,High,Limited access,Occasionally,High,Never,None,Smartphone,None
+85+,Primary,Low,No access,Frequently,High,Never,None,Smartphone,None
+65-74,Secondary,High,No access,Occasionally,High,Frequently,Basic,None,Intermediate
+85+,Primary,Low,No access,Rarely,Moderate,Never,None,Basic (Feature Phone),Basic
+75-84,No formal education,Middle,Limited access,Never,High,Never,None,Basic (Feature Phone),None
+75-84,Secondary,High,Limited access,Rarely,Moderate,Never,Intermediate,None,Advanced
+85+,Secondary,High,Limited access,Occasionally,High,Never,Intermediate,Smartphone,Advanced
+75-84,Primary,Middle,Limited access,Rarely,Minimal,Never,Basic,Smartphone,Basic
+65-74,Primary,Low,Limited access,Frequently,None,Never,Intermediate,Smartphone,Advanced
+65-74,Tertiary,High,No access,Never,Moderate,Never,None,Basic (Feature Phone),Advanced
+85+,Tertiary,Middle,Reliable access,Never,Moderate,Rarely,None,Basic (Feature Phone),Advanced
+85+,Primary,High,Limited access,Frequently,Minimal,Never,Basic,Basic (Feature Phone),Basic
+65-74,Primary,Middle,No access,Rarely,None,Never,Basic,None,Basic
+65-74,Tertiary,Middle,No access,Never,Minimal,Rarely,Intermediate,None,Advanced
+65-74,No formal education,High,Limited access,Occasionally,Moderate,Never,Basic,None,Basic
+75-84,Primary,Low,Limited access,Never,High,Frequently,Intermediate,Smartphone,Advanced
+75-84,Secondary,Middle,No access,Rarely,Moderate,Never,Basic,Basic (Feature Phone),Basic
+85+,Tertiary,High,Limited access,Rarely,Minimal,Rarely,Intermediate,None,Advanced
+65-74,Secondary,Middle,Limited access,Rarely,Minimal,Rarely,Basic,Smartphone,None
+75-84,Primary,Low,Reliable access,Never,Minimal,Never,Basic,Smartphone,None
+75-84,No formal education,High,Limited access,Rarely,High,Never,Advanced,Basic (Feature Phone),Advanced
+75-84,Primary,Low,Limited access,Rarely,Minimal,Never,Intermediate,Basic (Feature Phone),Advanced
+65-74,Secondary,Middle,No access,Rarely,None,Rarely,Intermediate,None,Intermediate
+65-74,Tertiary,Middle,Limited access,Occasionally,High,Never,Intermediate,Basic (Feature Phone),Intermediate
+65-74,Secondary,Middle,Limited access,Frequently,Moderate,Never,None,None,None
+75-84,Secondary,High,No access,Never,None,Never,None,None,None
+75-84,Primary,Middle,No access,Rarely,High,Never,Basic,Smartphone,None
+85+,Secondary,Low,Reliable access,Never,Minimal,Never,None,None,None
+65-74,No formal education,Low,Limited access,Rarely,Minimal,Rarely,Basic,None,None
+85+,Secondary,High,Reliable access,Occasionally,None,Never,Basic,Smartphone,Intermediate
+65-74,Primary,Low,Limited access,Occasionally,Moderate,Never,Basic,Basic (Feature Phone),Intermediate
+65-74,No formal education,Low,Limited access,Occasionally,Minimal,Occasionally,Basic,Smartphone,Intermediate
+65-74,Secondary,Low,No access,Frequently,Moderate,Rarely,Advanced,Smartphone,Advanced
+65-74,Secondary,Low,Limited access,Frequently,None,Never,None,Basic (Feature Phone),None
+65-74,Secondary,Low,No access,Rarely,Minimal,Never,None,Basic (Feature Phone),None
+65-74,Primary,High,Limited access,Rarely,None,Never,None,Basic (Feature Phone),Basic
+75-84,Primary,Low,Limited access,Occasionally,Moderate,Occasionally,Basic,Laptop/Desktop,Intermediate
+75-84,Primary,Low,Limited access,Never,Minimal,Never,Basic,None,None
+85+,Tertiary,Low,Reliable access,Never,Moderate,Never,Basic,Basic (Feature Phone),Intermediate
+65-74,No formal education,Middle,No access,Rarely,Minimal,Never,Intermediate,Smartphone,Advanced
+65-74,Secondary,Middle,No access,Occasionally,None,Rarely,Basic,Basic (Feature Phone),Basic
+75-84,Primary,Low,Reliable access,Never,None,Occasionally,Intermediate,Smartphone,Advanced
+75-84,Primary,Low,No access,Occasionally,Moderate,Never,None,Smartphone,None
+65-74,No formal education,Middle,Limited access,Never,Minimal,Never,Intermediate,Basic (Feature Phone),Intermediate
+65-74,Tertiary,Low,No access,Rarely,Minimal,Occasionally,Basic,None,Advanced
+85+,Primary,Middle,No access,Rarely,Moderate,Never,Intermediate,Basic (Feature Phone),Advanced
+65-74,Tertiary,Middle,Limited access,Occasionally,High,Rarely,Basic,Smartphone,Intermediate
+65-74,Secondary,Low,Limited access,Occasionally,High,Never,Intermediate,Basic (Feature Phone),Advanced
+65-74,Primary,Middle,Limited access,Rarely,None,Frequently,Advanced,None,Advanced
+65-74,Tertiary,Low,Limited access,Never,Moderate,Never,None,Smartphone,Intermediate
+65-74,Tertiary,High,No access,Frequently,Minimal,Never,Basic,Basic (Feature Phone),Advanced
+75-84,Primary,Low,Limited access,Occasionally,Moderate,Never,None,Basic (Feature Phone),None
+75-84,Tertiary,Low,Reliable access,Never,High,Occasionally,None,Basic (Feature Phone),Advanced
+75-84,Tertiary,Middle,Limited access,Frequently,None,Rarely,Intermediate,None,Advanced
+65-74,Secondary,Low,No access,Occasionally,Minimal,Never,None,Basic (Feature Phone),None
+85+,Secondary,High,No access,Occasionally,Moderate,Occasionally,Basic,Basic (Feature Phone),Basic
+65-74,Secondary,Middle,No access,Rarely,Minimal,Never,Intermediate,Basic (Feature Phone),Advanced
+75-84,Primary,Middle,Limited access,Occasionally,Moderate,Never,Intermediate,None,Advanced
+65-74,Primary,High,Limited access,Rarely,Minimal,Occasionally,Basic,Laptop/Desktop,None
+65-74,Secondary,Low,Reliable access,Rarely,Minimal,Never,None,Basic (Feature Phone),Basic
+75-84,Primary,High,Reliable access,Frequently,High,Never,None,None,None
+85+,Secondary,Low,Limited access,Rarely,High,Rarely,None,Basic (Feature Phone),Basic
+65-74,Primary,Low,Reliable access,Never,Minimal,Rarely,Basic,Basic (Feature Phone),None
+75-84,Primary,Low,Limited access,Rarely,None,Frequently,Basic,Smartphone,None
+65-74,Primary,Middle,No access,Occasionally,High,Never,Basic,None,Intermediate
+65-74,Tertiary,Middle,No access,Occasionally,None,Frequently,Advanced,None,Advanced
+65-74,Tertiary,Middle,Limited access,Occasionally,Minimal,Never,None,None,Advanced
+75-84,No formal education,Low,Limited access,Occasionally,Moderate,Occasionally,Basic,Laptop/Desktop,Basic
+85+,Secondary,Middle,No access,Never,Minimal,Never,None,Smartphone,None
+65-74,Secondary,Middle,Limited access,Frequently,High,Rarely,Basic,None,Intermediate
+65-74,Tertiary,Middle,Limited access,Rarely,Minimal,Never,Basic,Basic (Feature Phone),Advanced
+65-74,Secondary,Low,Limited access,Rarely,None,Never,None,Smartphone,None
+65-74,Secondary,High,Reliable access,Frequently,None,Never,Advanced,None,Advanced
+65-74,Tertiary,High,No access,Never,Minimal,Occasionally,Basic,Basic (Feature Phone),Advanced
+75-84,No formal education,Middle,Reliable access,Never,Minimal,Never,Intermediate,Basic (Feature Phone),Advanced
+65-74,No formal education,Middle,Limited access,Rarely,Moderate,Frequently,None,Laptop/Desktop,None
+65-74,Primary,Middle,Limited access,Never,Moderate,Rarely,Basic,None,Basic
+65-74,Tertiary,Middle,Reliable access,Rarely,Minimal,Occasionally,Basic,Basic (Feature Phone),Advanced
+75-84,Secondary,Low,Limited access,Rarely,High,Never,None,Basic (Feature Phone),None
+65-74,Tertiary,Middle,Limited access,Occasionally,None,Never,Basic,Smartphone,Intermediate
+65-74,Tertiary,Low,Reliable access,Occasionally,Minimal,Rarely,None,Basic (Feature Phone),Advanced
+85+,Tertiary,Middle,Limited access,Never,None,Occasionally,Basic,Basic (Feature Phone),Intermediate
+65-74,Primary,Middle,No access,Occasionally,Moderate,Occasionally,None,None,None
+75-84,Primary,Low,Limited access,Occasionally,High,Never,None,Basic (Feature Phone),None
+75-84,No formal education,Low,No access,Occasionally,High,Occasionally,Basic,Laptop/Desktop,Basic
+85+,Primary,Low,No access,Rarely,High,Rarely,Intermediate,Smartphone,Advanced
+65-74,Tertiary,Low,No access,Never,Minimal,Occasionally,Basic,Smartphone,Intermediate
+75-84,Secondary,Middle,No access,Rarely,Moderate,Never,Advanced,Smartphone,Advanced
+75-84,Primary,Middle,Limited access,Frequently,None,Never,None,None,None
+75-84,Secondary,High,Reliable access,Frequently,Minimal,Never,None,None,None
+65-74,Tertiary,Middle,No access,Never,Moderate,Occasionally,None,None,Intermediate
+75-84,Tertiary,Middle,Reliable access,Rarely,High,Never,Intermediate,Basic (Feature Phone),Advanced
+65-74,Primary,Low,No access,Never,Moderate,Never,None,None,None
+75-84,Primary,Middle,Limited access,Never,None,Rarely,None,Smartphone,None
+75-84,Secondary,Low,Reliable access,Rarely,None,Frequently,Basic,Smartphone,None
+65-74,Primary,High,No access,Rarely,Minimal,Rarely,Basic,Basic (Feature Phone),None
+85+,Secondary,Middle,Limited access,Rarely,High,Rarely,None,None,Basic
+75-84,Secondary,High,No access,Occasionally,Moderate,Occasionally,None,None,None
+75-84,Secondary,High,Reliable access,Occasionally,High,Never,None,Basic (Feature Phone),None
+75-84,Primary,Middle,Reliable access,Never,None,Occasionally,None,Laptop/Desktop,Basic
+65-74,Secondary,High,Reliable access,Rarely,Minimal,Occasionally,None,None,Basic
+75-84,Tertiary,Low,Reliable access,Never,Moderate,Never,None,Basic (Feature Phone),Advanced
+85+,Secondary,High,Limited access,Occasionally,Moderate,Never,None,Basic (Feature Phone),None
+75-84,Tertiary,High,Limited access,Rarely,Minimal,Rarely,None,Basic (Feature Phone),Advanced
+65-74,Secondary,High,Limited access,Frequently,Moderate,Never,None,None,None
+65-74,Primary,High,No access,Rarely,High,Never,None,Laptop/Desktop,Basic
+65-74,Primary,Low,No access,Never,Minimal,Never,None,Smartphone,Basic
+85+,Secondary,Low,Limited access,Never,None,Rarely,None,Basic (Feature Phone),Basic
+85+,Primary,Middle,Reliable access,Rarely,Moderate,Never,None,None,Basic
+75-84,No formal education,Low,Limited access,Occasionally,Moderate,Never,None,Basic (Feature Phone),None
+65-74,Secondary,Low,Limited access,Frequently,None,Occasionally,None,Basic (Feature Phone),None
+65-74,No formal education,Middle,Limited access,Never,Moderate,Never,Intermediate,Smartphone,Advanced
+85+,Tertiary,Middle,Reliable access,Frequently,None,Never,None,Smartphone,Advanced
+65-74,Primary,High,No access,Rarely,None,Rarely,Intermediate,None,Advanced
+65-74,Tertiary,Middle,No access,Frequently,None,Rarely,Basic,None,Advanced
+75-84,Primary,Middle,Limited access,Rarely,Moderate,Rarely,None,Smartphone,None
+65-74,Primary,Low,Limited access,Never,Minimal,Never,Intermediate,None,Advanced
+85+,No formal education,Low,Limited access,Frequently,High,Never,None,None,None
+75-84,Primary,Low,Reliable access,Rarely,High,Rarely,Basic,None,None
+65-74,Primary,Middle,Reliable access,Rarely,Moderate,Rarely,Basic,None,Basic
+75-84,Tertiary,Middle,No access,Occasionally,Moderate,Occasionally,None,None,Advanced
+85+,Secondary,Low,Reliable access,Occasionally,Moderate,Never,Basic,Smartphone,Basic
+65-74,Primary,Low,Limited access,Rarely,None,Occasionally,Basic,Smartphone,None
+85+,Tertiary,High,No access,Frequently,Minimal,Never,Basic,Laptop/Desktop,Intermediate
+75-84,Secondary,High,No access,Rarely,High,Never,Basic,None,None
+85+,Primary,High,No access,Never,Minimal,Never,Basic,None,Basic
+65-74,Tertiary,High,No access,Rarely,None,Rarely,Basic,Basic (Feature Phone),Intermediate
+65-74,Tertiary,Low,No access,Rarely,Minimal,Rarely,None,None,Advanced
+75-84,Primary,Middle,No access,Never,Minimal,Never,None,Basic (Feature Phone),None
+85+,Secondary,High,Limited access,Rarely,Moderate,Occasionally,Basic,None,None
+65-74,Secondary,Middle,No access,Occasionally,High,Never,None,Basic (Feature Phone),None
+65-74,Secondary,Low,No access,Occasionally,Minimal,Never,None,Basic (Feature Phone),None
+85+,Secondary,High,No access,Occasionally,Minimal,Rarely,None,Basic (Feature Phone),None
+65-74,Secondary,High,No access,Occasionally,High,Never,None,Laptop/Desktop,None
+65-74,Tertiary,Low,Limited access,Frequently,Moderate,Never,Intermediate,Basic (Feature Phone),Advanced
+85+,Secondary,Low,No access,Occasionally,Moderate,Never,None,None,None
+75-84,Secondary,Middle,Reliable access,Frequently,Moderate,Never,None,None,None
+65-74,Tertiary,High,Reliable access,Never,None,Never,Basic,Laptop/Desktop,Advanced
+85+,Secondary,Low,Limited access,Frequently,Moderate,Never,Basic,Basic (Feature Phone),Basic
+75-84,Secondary,Low,No access,Occasionally,Moderate,Never,None,Smartphone,None
+75-84,Primary,Middle,Limited access,Rarely,None,Never,Advanced,Basic (Feature Phone),Advanced
+85+,No formal education,High,Limited access,Occasionally,None,Rarely,None,Smartphone,None
+65-74,Secondary,Low,Reliable access,Occasionally,High,Occasionally,Basic,Basic (Feature Phone),Basic
+75-84,Primary,Middle,No access,Frequently,Moderate,Rarely,None,None,None
+75-84,Secondary,Middle,Limited access,Occasionally,High,Never,Basic,Basic (Feature Phone),Basic
+65-74,Tertiary,Middle,No access,Never,Minimal,Never,None,Smartphone,Advanced
+65-74,No formal education,Low,No access,Never,None,Never,Basic,Smartphone,None
+65-74,Tertiary,High,Reliable access,Occasionally,Minimal,Never,None,None,Advanced
+85+,Secondary,Middle,No access,Occasionally,Moderate,Rarely,Intermediate,Basic (Feature Phone),Advanced
+75-84,Tertiary,Middle,No access,Rarely,None,Rarely,Basic,Basic (Feature Phone),Intermediate
+65-74,Tertiary,Middle,No access,Never,Minimal,Rarely,None,None,Advanced
+65-74,Secondary,Low,No access,Rarely,Moderate,Occasionally,None,Smartphone,None
+65-74,Secondary,Low,No access,Occasionally,Moderate,Never,None,Basic (Feature Phone),None
+65-74,Primary,Middle,Limited access,Rarely,Minimal,Occasionally,Basic,None,Basic
+65-74,Secondary,Middle,Limited access,Occasionally,High,Never,Intermediate,Laptop/Desktop,Intermediate
+65-74,Tertiary,Low,Limited access,Occasionally,High,Never,None,Smartphone,Intermediate
+65-74,Secondary,Low,Limited access,Rarely,Minimal,Never,None,Basic (Feature Phone),Basic
+65-74,Tertiary,High,Limited access,Never,None,Never,Basic,Smartphone,Advanced
+65-74,Primary,High,Reliable access,Rarely,High,Never,Basic,Basic (Feature Phone),Basic
+65-74,Secondary,Middle,Reliable access,Occasionally,High,Never,None,Smartphone,None
+65-74,Secondary,Low,No access,Rarely,Moderate,Never,None,Smartphone,None
+75-84,No formal education,Middle,Limited access,Occasionally,High,Never,Intermediate,None,Advanced
+85+,Tertiary,Middle,Limited access,Frequently,Minimal,Never,Basic,None,Advanced
+85+,Secondary,Middle,No access,Occasionally,High,Never,None,Smartphone,None
+65-74,Secondary,Low,Limited access,Rarely,High,Never,None,None,Basic
+65-74,Secondary,High,Reliable access,Never,None,Never,Basic,Laptop/Desktop,None
+75-84,Secondary,High,No access,Rarely,Moderate,Frequently,None,Basic (Feature Phone),None
+65-74,Secondary,High,Limited access,Occasionally,High,Rarely,None,Basic (Feature Phone),None
+75-84,Tertiary,Middle,Limited access,Frequently,High,Never,None,Basic (Feature Phone),Advanced
+75-84,Tertiary,High,Limited access,Rarely,High,Never,Basic,Laptop/Desktop,Intermediate
+65-74,Tertiary,Low,No access,Never,High,Never,None,None,Advanced
+75-84,Primary,Low,No access,Never,Minimal,Never,Intermediate,None,Intermediate
+65-74,Tertiary,Low,Limited access,Frequently,High,Never,None,Basic (Feature Phone),Advanced
+85+,Primary,Low,No access,Frequently,Moderate,Never,None,Basic (Feature Phone),None
+75-84,Primary,Low,Reliable access,Occasionally,High,Never,Basic,Basic (Feature Phone),Basic
+75-84,Primary,Low,No access,Occasionally,None,Rarely,None,Basic (Feature Phone),None
+65-74,Secondary,Middle,Limited access,Frequently,Moderate,Never,None,None,None
+75-84,Primary,Middle,Limited access,Frequently,High,Rarely,None,Basic (Feature Phone),None
+75-84,Secondary,Low,Limited access,Never,High,Never,None,Basic (Feature Phone),None
+75-84,Secondary,Low,Reliable access,Never,High,Rarely,Basic,Smartphone,None
+75-84,Secondary,Low,Limited access,Never,High,Never,Basic,Smartphone,None
+65-74,Secondary,Low,Reliable access,Occasionally,None,Never,None,Smartphone,None
+75-84,Secondary,Middle,Reliable access,Never,Minimal,Rarely,None,Basic (Feature Phone),Basic
+75-84,Primary,Low,Limited access,Occasionally,Minimal,Never,None,Basic (Feature Phone),None
+65-74,Secondary,High,Reliable access,Never,High,Rarely,None,Smartphone,Basic
+75-84,Primary,Middle,Limited access,Occasionally,None,Never,None,None,None
+65-74,Tertiary,Middle,Limited access,Rarely,None,Never,None,None,Advanced
+65-74,Secondary,Low,No access,Never,High,Frequently,Intermediate,Smartphone,Advanced
+85+,Primary,Middle,No access,Occasionally,High,Frequently,Basic,None,Basic
+65-74,Tertiary,Middle,Limited access,Occasionally,Moderate,Never,None,Smartphone,Intermediate
+65-74,Primary,Middle,No access,Occasionally,High,Never,None,None,None
+85+,No formal education,Middle,Reliable access,Never,Minimal,Never,None,Smartphone,None
+85+,Primary,Middle,No access,Occasionally,Minimal,Never,Basic,Basic (Feature Phone),Basic
+65-74,Secondary,Low,No access,Occasionally,Minimal,Never,None,Smartphone,None
+65-74,No formal education,Low,No access,Rarely,Minimal,Never,Basic,Basic (Feature Phone),None
+65-74,Primary,High,Reliable access,Occasionally,Moderate,Rarely,Basic,None,Intermediate
+65-74,Tertiary,High,Limited access,Frequently,Minimal,Rarely,None,Basic (Feature Phone),Advanced
+75-84,Secondary,Middle,No access,Occasionally,Moderate,Occasionally,None,None,None
+65-74,Secondary,High,Reliable access,Rarely,Moderate,Never,None,None,Basic
+65-74,Primary,Middle,No access,Rarely,Minimal,Occasionally,Intermediate,None,Advanced
+65-74,Tertiary,Low,Limited access,Never,Minimal,Rarely,None,Basic (Feature Phone),Advanced
+65-74,Secondary,Low,Limited access,Never,Minimal,Rarely,None,Smartphone,Basic
+75-84,Secondary,Low,Reliable access,Occasionally,High,Never,None,Smartphone,None
+75-84,Tertiary,Low,Reliable access,Rarely,High,Occasionally,None,Basic (Feature Phone),Intermediate
+65-74,No formal education,Middle,Limited access,Frequently,Minimal,Never,None,None,None
+65-74,Tertiary,Middle,Reliable access,Occasionally,Minimal,Never,Intermediate,Smartphone,Advanced
+65-74,Secondary,Low,Limited access,Rarely,Minimal,Never,None,Basic (Feature Phone),Basic
+65-74,Secondary,High,Limited access,Frequently,None,Occasionally,None,Basic (Feature Phone),None
+75-84,Secondary,Low,Reliable access,Rarely,Minimal,Never,Basic,Laptop/Desktop,None
+65-74,Secondary,Low,No access,Never,High,Rarely,None,Smartphone,Basic
+65-74,Primary,High,Limited access,Occasionally,Minimal,Occasionally,None,None,None
+65-74,Tertiary,Middle,Limited access,Rarely,Moderate,Never,None,Basic (Feature Phone),Advanced
+85+,Primary,Middle,Limited access,Occasionally,High,Rarely,Basic,None,Intermediate
+75-84,Secondary,High,Reliable access,Occasionally,Moderate,Never,Advanced,None,Advanced
+65-74,Secondary,High,Limited access,Rarely,Minimal,Never,Advanced,Basic (Feature Phone),Advanced
+85+,Tertiary,Low,Limited access,Frequently,None,Never,None,Smartphone,Intermediate
+85+,Tertiary,High,No access,Frequently,High,Never,Intermediate,Smartphone,Advanced
+75-84,Secondary,Low,Reliable access,Frequently,High,Rarely,Intermediate,None,Intermediate
+85+,Secondary,Low,Limited access,Frequently,Minimal,Occasionally,Intermediate,Basic (Feature Phone),Advanced
+75-84,No formal education,Middle,No access,Occasionally,Moderate,Rarely,Advanced,None,Advanced
+65-74,Tertiary,Low,Limited access,Never,None,Never,Intermediate,None,Advanced
+75-84,Secondary,Low,Reliable access,Occasionally,Minimal,Never,None,None,None
+65-74,Primary,High,Reliable access,Occasionally,Minimal,Never,None,None,None
+65-74,Primary,Low,Reliable access,Occasionally,High,Rarely,None,Smartphone,None
+65-74,Secondary,Low,No access,Rarely,Moderate,Occasionally,Intermediate,Basic (Feature Phone),Advanced
+65-74,Tertiary,Middle,Reliable access,Rarely,Minimal,Never,None,Basic (Feature Phone),Intermediate
+75-84,Primary,Low,Limited access,Rarely,Minimal,Rarely,Advanced,None,Advanced
+65-74,Secondary,Low,Reliable access,Frequently,Moderate,Occasionally,Basic,None,Basic
+75-84,Tertiary,High,Limited access,Rarely,Moderate,Never,None,Smartphone,Advanced
+85+,Secondary,Low,Reliable access,Frequently,Minimal,Never,None,Laptop/Desktop,None
+65-74,Tertiary,High,Limited access,Occasionally,Minimal,Rarely,None,Basic (Feature Phone),Advanced
+65-74,Secondary,Middle,No access,Occasionally,High,Occasionally,Basic,Laptop/Desktop,Basic
+65-74,No formal education,Middle,Limited access,Occasionally,Moderate,Never,None,None,None
+85+,Primary,High,Reliable access,Never,High,Rarely,Intermediate,Basic (Feature Phone),Advanced
+75-84,Secondary,Low,No access,Frequently,High,Rarely,Basic,None,Intermediate
+85+,Primary,High,No access,Rarely,None,Never,Advanced,Basic (Feature Phone),Advanced
+65-74,Secondary,Low,Limited access,Rarely,None,Never,Basic,Laptop/Desktop,None
+85+,Primary,Low,Limited access,Occasionally,None,Rarely,Intermediate,None,Intermediate
+85+,Primary,Middle,No access,Frequently,Moderate,Rarely,Advanced,Basic (Feature Phone),Advanced
+65-74,Tertiary,High,Limited access,Rarely,High,Rarely,None,Basic (Feature Phone),Advanced
+85+,No formal education,Middle,No access,Frequently,High,Never,Basic,Basic (Feature Phone),Basic
+65-74,Secondary,Middle,No access,Rarely,Minimal,Rarely,Basic,Basic (Feature Phone),None
+75-84,Primary,Low,Limited access,Frequently,Moderate,Occasionally,None,Smartphone,None
+65-74,Secondary,Middle,Limited access,Rarely,Moderate,Never,Basic,None,Basic
+75-84,Primary,Low,Limited access,Rarely,Moderate,Never,None,Smartphone,Basic
+75-84,Tertiary,Middle,No access,Rarely,Minimal,Occasionally,Basic,None,Advanced
+75-84,Secondary,High,No access,Frequently,Moderate,Never,Basic,Laptop/Desktop,Basic
+65-74,Primary,Middle,Limited access,Never,High,Rarely,None,Laptop/Desktop,None
+65-74,Secondary,Middle,No access,Never,High,Occasionally,None,Smartphone,Basic
+65-74,No formal education,High,Limited access,Never,Moderate,Never,None,None,None
+65-74,No formal education,Middle,Limited access,Never,None,Occasionally,Basic,None,None
+65-74,Tertiary,Low,Limited access,Frequently,High,Never,None,Basic (Feature Phone),Advanced
+85+,No formal education,Middle,No access,Occasionally,High,Occasionally,Basic,None,Intermediate
+65-74,Primary,High,Limited access,Rarely,Moderate,Frequently,None,Basic (Feature Phone),None
+75-84,Tertiary,Middle,Reliable access,Occasionally,None,Occasionally,None,Smartphone,Advanced
+75-84,Primary,High,Limited access,Occasionally,None,Occasionally,None,Smartphone,None
+75-84,Tertiary,High,No access,Occasionally,None,Never,None,Laptop/Desktop,Intermediate
+75-84,Secondary,Middle,Limited access,Occasionally,None,Occasionally,None,Smartphone,None
+85+,No formal education,Low,Reliable access,Frequently,High,Occasionally,None,None,None
+65-74,Secondary,Low,Limited access,Never,Minimal,Never,None,Smartphone,None
+65-74,Tertiary,Low,No access,Rarely,Minimal,Never,Basic,None,Intermediate
+75-84,Tertiary,Middle,Reliable access,Occasionally,Minimal,Never,None,Basic (Feature Phone),Intermediate
+65-74,Primary,Low,Limited access,Occasionally,Moderate,Occasionally,None,Smartphone,None
+65-74,Secondary,Low,No access,Frequently,Minimal,Never,Basic,Smartphone,Basic
+75-84,Tertiary,Low,Reliable access,Frequently,None,Never,Advanced,Basic (Feature Phone),Intermediate
+65-74,Tertiary,Low,No access,Occasionally,High,Rarely,None,Smartphone,Advanced
+85+,No formal education,Low,No access,Rarely,Moderate,Never,Basic,Smartphone,None
+75-84,Primary,Low,Limited access,Frequently,Moderate,Occasionally,Advanced,Smartphone,Advanced
+85+,Tertiary,High,Reliable access,Rarely,Minimal,Rarely,Basic,Basic (Feature Phone),Advanced
+85+,Primary,Middle,Reliable access,Rarely,Moderate,Occasionally,None,Laptop/Desktop,Basic
+65-74,Secondary,Middle,No access,Rarely,High,Never,None,Basic (Feature Phone),Basic
+85+,Primary,High,Limited access,Never,Moderate,Never,Basic,Smartphone,None
+75-84,Tertiary,Low,Reliable access,Never,None,Rarely,None,Smartphone,Advanced
+65-74,Primary,Low,Limited access,Rarely,High,Rarely,None,Smartphone,Basic
+65-74,Primary,Middle,No access,Never,High,Never,Intermediate,None,Intermediate
+65-74,Primary,Middle,Limited access,Occasionally,High,Rarely,Basic,Basic (Feature Phone),Intermediate
+65-74,Tertiary,Middle,No access,Occasionally,None,Never,None,Smartphone,Advanced
+75-84,Secondary,Middle,No access,Occasionally,Minimal,Never,None,Smartphone,None
+65-74,No formal education,Low,Limited access,Rarely,Moderate,Occasionally,None,Smartphone,None
+65-74,Primary,Middle,Reliable access,Rarely,High,Never,None,Basic (Feature Phone),Basic
+75-84,Primary,Low,Reliable access,Never,Moderate,Rarely,None,Basic (Feature Phone),None
+75-84,Tertiary,High,Limited access,Rarely,Minimal,Never,Intermediate,None,Advanced
+85+,Tertiary,Middle,Limited access,Occasionally,High,Never,None,Laptop/Desktop,Advanced
+65-74,Tertiary,Low,Reliable access,Never,Moderate,Rarely,Intermediate,Basic (Feature Phone),Advanced
+65-74,Primary,Middle,Limited access,Frequently,Moderate,Rarely,None,Basic (Feature Phone),None
+65-74,No formal education,High,Limited access,Occasionally,None,Occasionally,None,Smartphone,None
+75-84,Secondary,Low,Limited access,Never,Minimal,Never,Intermediate,Basic (Feature Phone),Intermediate
+85+,Secondary,Middle,Limited access,Rarely,None,Rarely,None,None,Basic
+65-74,Tertiary,Middle,Limited access,Occasionally,None,Never,Basic,Basic (Feature Phone),Advanced
+65-74,Primary,Low,Reliable access,Rarely,Minimal,Never,Basic,Smartphone,Basic
+75-84,Primary,High,No access,Occasionally,Moderate,Rarely,Basic,Smartphone,Intermediate
+65-74,Secondary,High,Limited access,Never,Moderate,Never,Basic,Basic (Feature Phone),Basic
+75-84,Tertiary,Low,No access,Never,High,Never,Basic,Laptop/Desktop,Intermediate
+65-74,Primary,Middle,No access,Never,Minimal,Occasionally,None,Basic (Feature Phone),None
+65-74,Secondary,Low,No access,Occasionally,Moderate,Occasionally,Intermediate,Smartphone,Intermediate
+65-74,Tertiary,Low,Limited access,Never,Moderate,Rarely,Basic,None,Advanced
+65-74,Tertiary,Middle,No access,Never,Minimal,Never,None,Smartphone,Intermediate
+75-84,Primary,Low,Limited access,Occasionally,Minimal,Rarely,Advanced,Smartphone,Intermediate
+65-74,Secondary,Middle,No access,Frequently,High,Never,None,Smartphone,None
+65-74,Primary,Middle,Limited access,Rarely,Minimal,Rarely,None,Basic (Feature Phone),None
+65-74,Tertiary,Middle,No access,Frequently,Minimal,Never,Basic,None,Intermediate
+75-84,Primary,High,Limited access,Frequently,Moderate,Never,Basic,Smartphone,Basic
+75-84,Secondary,High,Limited access,Rarely,Minimal,Never,None,Basic (Feature Phone),Basic
+65-74,Secondary,Middle,No access,Rarely,Minimal,Rarely,None,None,None
+75-84,Tertiary,Low,No access,Never,Moderate,Rarely,Basic,None,Advanced
+75-84,Tertiary,Middle,No access,Rarely,Moderate,Rarely,Basic,Basic (Feature Phone),Advanced
+65-74,Primary,Middle,Limited access,Never,Minimal,Rarely,Intermediate,Smartphone,Advanced
+65-74,Tertiary,Low,Limited access,Never,High,Never,Basic,None,Advanced
+65-74,Secondary,Middle,Limited access,Rarely,Moderate,Never,None,None,None
+75-84,Tertiary,Low,Limited access,Occasionally,None,Never,None,Basic (Feature Phone),Advanced
+65-74,Secondary,High,Reliable access,Never,Moderate,Never,None,Smartphone,None
+65-74,Tertiary,Low,Reliable access,Occasionally,Minimal,Frequently,Basic,None,Intermediate
+65-74,Tertiary,Low,Limited access,Frequently,Minimal,Occasionally,None,Basic (Feature Phone),Intermediate
+65-74,Secondary,High,Limited access,Never,Minimal,Occasionally,Intermediate,Smartphone,Advanced
+65-74,Secondary,High,Limited access,Occasionally,High,Rarely,None,None,None
+75-84,Tertiary,Low,Reliable access,Frequently,High,Never,Intermediate,None,Advanced
+65-74,Primary,Middle,Limited access,Occasionally,Minimal,Rarely,Intermediate,Smartphone,Intermediate
+75-84,Primary,Low,Limited access,Frequently,Minimal,Rarely,Basic,Smartphone,Basic
+65-74,Tertiary,High,No access,Rarely,None,Rarely,Advanced,Laptop/Desktop,Advanced
+65-74,Primary,Middle,Limited access,Never,Moderate,Rarely,None,None,Basic
+65-74,Tertiary,Middle,Reliable access,Occasionally,None,Rarely,None,Basic (Feature Phone),Advanced
+75-84,Secondary,Low,Limited access,Rarely,Minimal,Rarely,None,Basic (Feature Phone),Basic
+75-84,Primary,Middle,Limited access,Never,Moderate,Rarely,Intermediate,Basic (Feature Phone),Advanced
+75-84,Tertiary,Low,No access,Rarely,Moderate,Occasionally,Basic,Smartphone,Intermediate
+85+,Tertiary,Low,Reliable access,Frequently,None,Never,Intermediate,Laptop/Desktop,Advanced
+65-74,Primary,Middle,No access,Never,Moderate,Never,None,Basic (Feature Phone),Basic
+65-74,Secondary,Low,Limited access,Occasionally,Minimal,Never,None,Basic (Feature Phone),None
+65-74,Tertiary,High,No access,Occasionally,Minimal,Rarely,None,Smartphone,Intermediate
+65-74,No formal education,Middle,No access,Never,Moderate,Never,None,Laptop/Desktop,None
+65-74,Secondary,Middle,Limited access,Rarely,Minimal,Frequently,Basic,Basic (Feature Phone),Basic
+65-74,Secondary,Low,Reliable access,Never,Minimal,Occasionally,None,None,None
+65-74,Tertiary,Middle,Limited access,Never,Minimal,Never,None,None,Intermediate
+65-74,Secondary,High,Limited access,Rarely,Moderate,Never,None,None,None
+65-74,Primary,Low,Limited access,Occasionally,Minimal,Never,None,Smartphone,None
+75-84,Primary,Low,Limited access,Rarely,Minimal,Never,None,Basic (Feature Phone),Basic
+75-84,Primary,Low,Limited access,Rarely,Minimal,Rarely,None,Basic (Feature Phone),None
+75-84,No formal education,Low,No access,Occasionally,Moderate,Never,None,None,None
+75-84,Tertiary,Middle,Limited access,Never,Minimal,Rarely,Intermediate,None,Advanced
+65-74,No formal education,Low,Reliable access,Never,Minimal,Rarely,Basic,Smartphone,None
+85+,Primary,Middle,Limited access,Rarely,High,Never,None,Laptop/Desktop,Basic
+65-74,Tertiary,Low,Limited access,Rarely,Moderate,Never,Intermediate,Smartphone,Advanced
+65-74,Secondary,High,Reliable access,Frequently,Moderate,Never,None,None,None
+85+,Secondary,Low,Reliable access,Occasionally,Moderate,Rarely,Basic,Basic (Feature Phone),Intermediate
+75-84,Primary,Middle,Reliable access,Rarely,Minimal,Occasionally,Intermediate,Smartphone,Advanced
+85+,Tertiary,Middle,Limited access,Occasionally,Moderate,Rarely,Intermediate,Basic (Feature Phone),Advanced
+85+,No formal education,Middle,Limited access,Occasionally,None,Never,Basic,Basic (Feature Phone),Intermediate
+65-74,Tertiary,Low,No access,Rarely,Moderate,Rarely,None,Laptop/Desktop,Advanced
+65-74,Primary,High,Limited access,Never,Minimal,Never,None,Basic (Feature Phone),Basic
+75-84,Tertiary,Low,No access,Occasionally,Moderate,Rarely,Basic,Smartphone,Advanced
+85+,Secondary,Low,Limited access,Rarely,Moderate,Rarely,None,None,None
+75-84,Secondary,Low,No access,Rarely,Moderate,Rarely,None,None,None
+75-84,Secondary,Middle,Reliable access,Frequently,None,Never,Intermediate,Smartphone,Advanced
+85+,Secondary,Middle,No access,Occasionally,None,Occasionally,None,None,None
+65-74,Primary,Low,Limited access,Occasionally,Minimal,Never,Basic,Smartphone,Intermediate
+85+,Secondary,Low,Limited access,Rarely,Minimal,Never,Basic,Basic (Feature Phone),Basic
+65-74,Primary,High,No access,Never,High,Never,Intermediate,Smartphone,Advanced
+65-74,Secondary,Low,Limited access,Never,Moderate,Never,Advanced,None,Intermediate
+65-74,Secondary,Middle,No access,Frequently,Moderate,Never,None,None,None
+65-74,Secondary,Low,Reliable access,Never,High,Never,None,Basic (Feature Phone),None
+85+,Tertiary,Middle,Limited access,Never,Moderate,Rarely,Intermediate,Basic (Feature Phone),Intermediate
+75-84,Secondary,Middle,Reliable access,Rarely,High,Frequently,Basic,Basic (Feature Phone),Basic
+75-84,Primary,High,No access,Frequently,None,Never,None,Laptop/Desktop,None
+65-74,Primary,Low,Reliable access,Occasionally,Moderate,Never,None,None,None
+65-74,Primary,High,Limited access,Never,High,Never,Intermediate,Basic (Feature Phone),Advanced
+65-74,Primary,Low,Limited access,Never,Minimal,Never,None,Smartphone,None
+65-74,Tertiary,Low,Limited access,Occasionally,Minimal,Occasionally,None,Smartphone,Intermediate
+65-74,Primary,Middle,Limited access,Rarely,None,Never,None,Smartphone,Basic
+65-74,Primary,High,No access,Occasionally,Moderate,Never,None,Basic (Feature Phone),None
+65-74,Secondary,High,Reliable access,Occasionally,Moderate,Rarely,None,Smartphone,None
+75-84,Primary,Middle,Limited access,Never,Moderate,Never,None,None,Basic
+65-74,Primary,Low,Reliable access,Rarely,Minimal,Never,None,Basic (Feature Phone),None
+85+,Tertiary,Middle,Limited access,Never,High,Never,Advanced,None,Advanced
+65-74,Secondary,Low,No access,Rarely,Moderate,Never,None,Basic (Feature Phone),Basic
+75-84,Primary,High,Limited access,Rarely,Minimal,Rarely,Basic,Basic (Feature Phone),Basic
+65-74,Tertiary,Middle,No access,Never,None,Rarely,Basic,None,Advanced
+75-84,Secondary,Low,Limited access,Occasionally,Moderate,Rarely,Intermediate,Basic (Feature Phone),Advanced
+65-74,No formal education,High,Limited access,Rarely,None,Never,Intermediate,None,Intermediate
+65-74,Primary,Low,Limited access,Frequently,None,Never,Basic,None,Basic
+75-84,Tertiary,Low,Limited access,Never,Minimal,Never,None,Smartphone,Advanced
+85+,Secondary,Middle,No access,Rarely,None,Never,Basic,Laptop/Desktop,Basic
+65-74,Primary,Middle,Limited access,Rarely,High,Never,None,Smartphone,Basic
+65-74,Primary,Middle,Limited access,Occasionally,Moderate,Rarely,None,Laptop/Desktop,None
+75-84,Primary,Low,Limited access,Frequently,None,Never,None,None,None
+75-84,Secondary,High,Limited access,Frequently,High,Never,Basic,None,Intermediate
+75-84,Secondary,Low,Reliable access,Rarely,Minimal,Occasionally,Basic,Smartphone,None
+65-74,Primary,Middle,Limited access,Never,Moderate,Rarely,None,None,Basic
+85+,Primary,Low,Reliable access,Frequently,None,Never,Basic,Smartphone,Intermediate
+65-74,Secondary,Low,Limited access,Frequently,Minimal,Frequently,None,None,None
+65-74,Primary,Low,No access,Frequently,None,Frequently,Basic,Smartphone,Intermediate
+65-74,No formal education,Low,Reliable access,Frequently,None,Never,Basic,Smartphone,Basic
+65-74,Tertiary,High,No access,Occasionally,High,Never,Basic,None,Advanced
+85+,Tertiary,Low,Limited access,Rarely,Minimal,Never,Basic,Basic (Feature Phone),Intermediate
+75-84,Primary,Low,Limited access,Occasionally,High,Never,Basic,None,Basic
+65-74,Primary,Low,Limited access,Frequently,None,Rarely,None,None,None
+65-74,Primary,Middle,Limited access,Never,High,Never,None,Basic (Feature Phone),Basic
+65-74,Tertiary,Low,Limited access,Occasionally,Minimal,Rarely,Basic,Laptop/Desktop,Intermediate
+85+,Secondary,Low,Limited access,Occasionally,Minimal,Never,Advanced,Smartphone,Advanced
+65-74,Primary,Middle,Limited access,Never,Minimal,Never,Basic,Basic (Feature Phone),None
+65-74,Primary,High,No access,Rarely,High,Never,Intermediate,None,Intermediate
+75-84,Tertiary,Middle,Limited access,Frequently,High,Never,None,Basic (Feature Phone),Intermediate
+85+,Primary,High,No access,Frequently,None,Frequently,Basic,Laptop/Desktop,Intermediate
+65-74,Secondary,Middle,No access,Rarely,None,Rarely,Advanced,Basic (Feature Phone),Advanced
+65-74,Secondary,Low,Limited access,Rarely,Moderate,Occasionally,None,Smartphone,None
+75-84,Primary,High,No access,Rarely,Moderate,Never,None,Basic (Feature Phone),None
+75-84,Primary,Low,Limited access,Rarely,Moderate,Rarely,Basic,None,None
+65-74,No formal education,Low,No access,Occasionally,Moderate,Occasionally,Basic,None,Intermediate
+85+,Tertiary,High,Limited access,Never,Minimal,Frequently,Basic,Basic (Feature Phone),Advanced
+65-74,Tertiary,Low,Limited access,Never,High,Rarely,Intermediate,Basic (Feature Phone),Advanced
+75-84,No formal education,High,No access,Never,None,Rarely,None,Smartphone,None
+75-84,Primary,Middle,Limited access,Frequently,None,Rarely,None,Basic (Feature Phone),None
+65-74,Secondary,Middle,Reliable access,Rarely,None,Never,None,None,None
+75-84,Secondary,Low,No access,Never,Minimal,Never,None,Smartphone,Basic
+65-74,Primary,Middle,No access,Occasionally,Moderate,Rarely,Intermediate,Basic (Feature Phone),Advanced
+85+,No formal education,Low,Limited access,Occasionally,None,Never,Advanced,Smartphone,Advanced
+65-74,Tertiary,Low,Limited access,Never,None,Never,None,Basic (Feature Phone),Advanced
+75-84,Primary,High,No access,Frequently,Moderate,Never,None,Smartphone,None
+65-74,Secondary,High,No access,Rarely,Moderate,Rarely,Intermediate,Basic (Feature Phone),Advanced
+75-84,Tertiary,Low,Limited access,Rarely,Moderate,Never,None,Laptop/Desktop,Intermediate
+75-84,Secondary,Low,Reliable access,Frequently,High,Never,None,Smartphone,None
+75-84,Tertiary,Low,Reliable access,Frequently,Moderate,Rarely,None,Basic (Feature Phone),Advanced
+65-74,Secondary,Middle,Reliable access,Occasionally,Minimal,Never,Basic,Laptop/Desktop,Intermediate
+75-84,Secondary,High,Limited access,Frequently,Moderate,Never,Basic,Basic (Feature Phone),Basic
+65-74,Primary,High,No access,Frequently,Moderate,Rarely,Basic,Laptop/Desktop,Basic
+75-84,Tertiary,Middle,Limited access,Occasionally,Moderate,Rarely,None,Smartphone,Intermediate
+65-74,No formal education,Middle,Reliable access,Frequently,High,Rarely,None,Laptop/Desktop,None
+65-74,Tertiary,Middle,Reliable access,Rarely,High,Never,None,Smartphone,Advanced
+85+,Secondary,High,Limited access,Never,Minimal,Rarely,None,None,Basic
+75-84,Secondary,High,No access,Rarely,Moderate,Occasionally,Basic,None,Basic
+85+,Secondary,Middle,No access,Occasionally,Moderate,Occasionally,None,Basic (Feature Phone),None
+65-74,Secondary,Low,Limited access,Occasionally,High,Frequently,None,Smartphone,None
+85+,Primary,Middle,No access,Occasionally,Moderate,Rarely,Intermediate,Smartphone,Intermediate
+65-74,Tertiary,High,Limited access,Never,None,Never,Intermediate,Basic (Feature Phone),Advanced
+75-84,Primary,High,No access,Never,Minimal,Never,None,None,Basic
+75-84,Secondary,Middle,Limited access,Rarely,Minimal,Never,None,Basic (Feature Phone),None
+65-74,Secondary,Middle,Limited access,Occasionally,High,Never,None,Basic (Feature Phone),None
