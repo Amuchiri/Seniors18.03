@@ -16,7 +16,8 @@ python-multipart
 gTTS==2.4.0
 pyttsx3==2.90
 python-dotenv
-sounddevice==0.4.6 
+sounddevice==0.4.6
+pyaudio 
 
 
 
