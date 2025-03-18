@@ -1,25 +1,30 @@
-# Use a lightweight Python base image
-FROM python:3.10-slim
+# Use a Python base image
+FROM python:3.10
 
 # Set the working directory in the container
 WORKDIR /app
 
+# Install system dependencies required for PortAudio and PyAudio
+RUN apt-get update && apt-get install -y \
+    portaudio19-dev \
+    libasound2-dev \
+    libportaudio2 \
+    libportaudiocpp0 \
+    ffmpeg
 
-# Copy only the necessary files first (to improve caching)
+# Copy the requirements file and install dependencies
 COPY requirements.txt .
-
-# Install dependencies
-RUN pip install --upgrade pip  # ✅ Ensures latest pip version
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy the rest of the application files
+# Copy the rest of your application files
 COPY . .
 
-# Expose the port FastAPI will run on
+# Expose port (if needed)
 EXPOSE 8000
 
-# Run FastAPI with Uvicorn
-CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
+# Run the application
+CMD ["python", "app.py"]
+
 
 
 
